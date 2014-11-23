@@ -1,0 +1,1 @@
+{"methods":[],"package":"org.apache.http.auth.params","constants":["String CREDENTIAL_CHARSET Defines the charset to be used when encoding Credentials."],"class":"AuthPNames","constructors":[],"fields":[]}

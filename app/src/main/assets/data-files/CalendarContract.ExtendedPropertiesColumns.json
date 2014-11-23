@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["String EVENT_ID The event the extended property belongs to.","String NAME The name of the extended property.","String VALUE The value of the extended property."],"class":"CalendarContract.ExtendedPropertiesColumns","constructors":[],"fields":[]}

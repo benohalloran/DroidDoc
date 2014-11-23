@@ -1,0 +1,1 @@
+{"methods":["abstract void onDeviceFound(BleDevice device) Called when a device is found.","abstract void onScanStopped() Called when the scan is stopped (normally because the timeout expired)."],"package":"com.google.android.gms.fitness.request","constants":[],"class":"BleScanCallback","constructors":[],"fields":[]}

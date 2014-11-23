@@ -1,0 +1,1 @@
+{"methods":["abstract void onActionProviderVisibilityChanged(boolean isVisible)"],"package":"android.view","constants":[],"class":"ActionProvider.VisibilityListener","constructors":[],"fields":[]}

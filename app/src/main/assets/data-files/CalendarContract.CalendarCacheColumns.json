@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["String KEY The key for the setting.","String VALUE The value of the given setting."],"class":"CalendarContract.CalendarCacheColumns","constructors":[],"fields":[]}

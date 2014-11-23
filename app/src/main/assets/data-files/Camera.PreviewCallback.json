@@ -1,0 +1,1 @@
+{"methods":["abstract void onPreviewFrame(byte[] data, Camera camera) Called as preview frames are displayed."],"package":"android.hardware","constants":[],"class":"Camera.PreviewCallback","constructors":[],"fields":[]}

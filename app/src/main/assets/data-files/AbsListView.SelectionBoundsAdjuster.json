@@ -1,0 +1,1 @@
+{"methods":["abstract void adjustListItemSelectionBounds(Rect bounds) Called to allow the list item to adjust the bounds shown for its selection."],"package":"android.widget","constants":[],"class":"AbsListView.SelectionBoundsAdjuster","constructors":[],"fields":[]}

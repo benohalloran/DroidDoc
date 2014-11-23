@@ -1,0 +1,1 @@
+{"methods":["abstract V call() Computes a result, or throws an exception if unable to do so."],"package":"java.util.concurrent","constants":[],"class":"Callable","constructors":[],"fields":[]}

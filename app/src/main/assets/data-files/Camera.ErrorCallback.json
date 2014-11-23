@@ -1,0 +1,1 @@
+{"methods":["abstract void onError(int error, Camera camera) Callback for camera errors."],"package":"android.hardware","constants":[],"class":"Camera.ErrorCallback","constructors":[],"fields":[]}

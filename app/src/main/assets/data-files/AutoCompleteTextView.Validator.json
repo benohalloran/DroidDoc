@@ -1,0 +1,1 @@
+{"methods":["abstract CharSequence fixText(CharSequence invalidText) Corrects the specified text to make it valid.","abstract boolean isValid(CharSequence text) Validates the specified text."],"package":"android.widget","constants":[],"class":"AutoCompleteTextView.Validator","constructors":[],"fields":[]}

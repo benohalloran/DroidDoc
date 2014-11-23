@@ -1,0 +1,1 @@
+{"methods":["abstract boolean isRunning() Indicates whether the animation is running.","abstract void start() Starts the drawable's animation.","abstract void stop() Stops the drawable's animation."],"package":"android.graphics.drawable","constants":[],"class":"Animatable","constructors":[],"fields":[]}

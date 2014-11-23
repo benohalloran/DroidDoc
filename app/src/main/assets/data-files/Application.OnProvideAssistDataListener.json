@@ -1,0 +1,1 @@
+{"methods":["abstract void onProvideAssistData(Activity activity, Bundle data) This is called when the user is requesting an assist, to build a full ACTION_ASSIST Intent with all of the context of the current application."],"package":"android.app","constants":[],"class":"Application.OnProvideAssistDataListener","constructors":[],"fields":[]}

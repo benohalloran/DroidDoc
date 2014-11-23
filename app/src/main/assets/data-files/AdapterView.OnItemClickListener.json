@@ -1,0 +1,1 @@
+{"methods":["abstract void onItemClick(AdapterView<?> parent, View view, int position, long id) Callback method to be invoked when an item in this AdapterView has been clicked."],"package":"android.widget","constants":[],"class":"AdapterView.OnItemClickListener","constructors":[],"fields":[]}

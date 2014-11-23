@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["String ENDDAY The Julian ending day number.","String STARTDAY The Julian starting day number."],"class":"CalendarContract.EventDaysColumns","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onControlStatusChange(AudioEffect effect, boolean controlGranted) Called on the listener to notify it that the effect engine control has been taken or returned."],"package":"android.media.audiofx","constants":[],"class":"AudioEffect.OnControlStatusChangeListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onCancel() Called when cancel() is invoked."],"package":"android.os","constants":[],"class":"CancellationSignal.OnCancelListener","constructors":[],"fields":[]}

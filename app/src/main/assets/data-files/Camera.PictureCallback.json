@@ -1,0 +1,1 @@
+{"methods":["abstract void onPictureTaken(byte[] data, Camera camera) Called when image data is available after a picture is taken."],"package":"android.hardware","constants":[],"class":"Camera.PictureCallback","constructors":[],"fields":[]}

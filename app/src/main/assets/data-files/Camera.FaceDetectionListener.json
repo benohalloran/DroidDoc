@@ -1,0 +1,1 @@
+{"methods":["abstract void onFaceDetection(Face[] faces, Camera camera) Notify the listener of the detected faces in the preview frame."],"package":"android.hardware","constants":[],"class":"Camera.FaceDetectionListener","constructors":[],"fields":[]}

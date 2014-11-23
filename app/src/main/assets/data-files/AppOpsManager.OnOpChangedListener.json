@@ -1,0 +1,1 @@
+{"methods":["abstract void onOpChanged(String op, String packageName)"],"package":"android.app","constants":[],"class":"AppOpsManager.OnOpChangedListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onZoomChange(int zoomValue, boolean stopped, Camera camera) Called when the zoom value has changed during a smooth zoom."],"package":"android.hardware","constants":[],"class":"Camera.OnZoomChangeListener","constructors":[],"fields":[]}

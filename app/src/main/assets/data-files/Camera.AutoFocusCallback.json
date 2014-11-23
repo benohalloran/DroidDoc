@@ -1,0 +1,1 @@
+{"methods":["abstract void onAutoFocus(boolean success, Camera camera) Called when the camera auto focus completes."],"package":"android.hardware","constants":[],"class":"Camera.AutoFocusCallback","constructors":[],"fields":[]}

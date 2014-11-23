@@ -1,0 +1,1 @@
+{"methods":["abstract void onBufferAvailable(Allocation a)"],"package":"android.renderscript","constants":[],"class":"Allocation.OnBufferAvailableListener","constructors":[],"fields":[]}

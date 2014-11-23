@@ -1,0 +1,1 @@
+{"methods":["abstract void onEnableStatusChange(AudioEffect effect, boolean enabled) Called on the listener to notify it that the effect engine has been enabled or disabled."],"package":"android.media.audiofx","constants":[],"class":"AudioEffect.OnEnableStatusChangeListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onMenuVisibilityChanged(boolean isVisible) Called when an action bar menu is shown or hidden."],"package":"android.support.v7.app","constants":[],"class":"ActionBar.OnMenuVisibilityListener","constructors":[],"fields":[]}

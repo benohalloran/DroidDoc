@@ -1,0 +1,1 @@
+{"methods":["abstract Appendable append(CharSequence csq) Appends the character sequence csq.","abstract Appendable append(CharSequence csq, int start, int end) Appends a subsequence of csq.","abstract Appendable append(char c) Appends the specified character."],"package":"java.lang","constants":[],"class":"Appendable","constructors":[],"fields":[]}

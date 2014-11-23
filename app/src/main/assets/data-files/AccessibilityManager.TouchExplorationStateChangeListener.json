@@ -1,0 +1,1 @@
+{"methods":["abstract void onTouchExplorationStateChanged(boolean enabled) Called when the touch exploration enabled state changes."],"package":"android.view.accessibility","constants":[],"class":"AccessibilityManager.TouchExplorationStateChangeListener","constructors":[],"fields":[]}

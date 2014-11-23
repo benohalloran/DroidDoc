@@ -1,0 +1,1 @@
+{"methods":["abstract void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) Called upon change of the selected day."],"package":"android.widget","constants":[],"class":"CalendarView.OnDateChangeListener","constructors":[],"fields":[]}

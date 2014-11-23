@@ -1,0 +1,1 @@
+{"methods":["abstract void onShutter() Called as near as possible to the moment when a photo is captured from the sensor."],"package":"android.hardware","constants":[],"class":"Camera.ShutterCallback","constructors":[],"fields":[]}

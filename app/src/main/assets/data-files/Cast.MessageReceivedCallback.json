@@ -1,0 +1,1 @@
+{"methods":["abstract void onMessageReceived(CastDevice castDevice, String namespace, String message) Called when a message is received from a given CastDevice."],"package":"com.google.android.gms.cast","constants":[],"class":"Cast.MessageReceivedCallback","constructors":[],"fields":[]}

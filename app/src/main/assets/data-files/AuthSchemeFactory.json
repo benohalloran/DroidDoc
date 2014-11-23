@@ -1,0 +1,1 @@
+{"methods":["abstract AuthScheme newInstance(HttpParams params)"],"package":"org.apache.http.auth","constants":[],"class":"AuthSchemeFactory","constructors":[],"fields":[]}

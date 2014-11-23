@@ -1,0 +1,1 @@
+{"methods":["abstract void onMovedToScrapHeap(View view) Indicates that the specified View was moved into the recycler's scrap heap."],"package":"android.widget","constants":[],"class":"AbsListView.RecyclerListener","constructors":[],"fields":[]}

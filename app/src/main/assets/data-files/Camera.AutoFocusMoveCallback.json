@@ -1,0 +1,1 @@
+{"methods":["abstract void onAutoFocusMoving(boolean start, Camera camera) Called when the camera auto focus starts or stops."],"package":"android.hardware","constants":[],"class":"Camera.AutoFocusMoveCallback","constructors":[],"fields":[]}

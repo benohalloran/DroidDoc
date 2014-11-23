@@ -1,0 +1,1 @@
+{"methods":["abstract void onParameterChange(BassBoost effect, int status, int param, short value) Method called when a parameter value has changed."],"package":"android.media.audiofx","constants":[],"class":"BassBoost.OnParameterChangeListener","constructors":[],"fields":[]}

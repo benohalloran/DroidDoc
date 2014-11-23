@@ -1,0 +1,1 @@
+{"methods":["abstract void advance() Advances this collection, eg.","abstract void fyiWillBeAdvancedByHostKThx() Called by the AppWidgetHost once before it begins to call advance(), allowing the collection to do any required setup."],"package":"android.widget","constants":[],"class":"Advanceable","constructors":[],"fields":[]}

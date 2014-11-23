@@ -1,0 +1,1 @@
+{"methods":["abstract void close() Closes the object and release any system resources it holds."],"package":"java.lang","constants":[],"class":"AutoCloseable","constructors":[],"fields":[]}

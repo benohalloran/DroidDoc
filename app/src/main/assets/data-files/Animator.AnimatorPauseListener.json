@@ -1,0 +1,1 @@
+{"methods":["abstract void onAnimationPause(Animator animation) Notifies that the animation was paused.","abstract void onAnimationResume(Animator animation) Notifies that the animation was resumed, after being previously paused."],"package":"android.animation","constants":[],"class":"Animator.AnimatorPauseListener","constructors":[],"fields":[]}

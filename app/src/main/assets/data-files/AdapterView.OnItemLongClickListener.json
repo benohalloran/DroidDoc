@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) Callback method to be invoked when an item in this view has been clicked and held."],"package":"android.widget","constants":[],"class":"AdapterView.OnItemLongClickListener","constructors":[],"fields":[]}
