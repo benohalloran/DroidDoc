@@ -6,9 +6,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import data.ClassInfo;
 import data.FileInfoFactory;
 import data.InfoObject;
 
@@ -82,6 +84,24 @@ public class ClassInfoFrag extends Fragment {
             for (int i = 0; i < views.length; i++) {
                 views[i].setAdapter(new DetailsAdapter(getActivity(), data,
                         DetailsAdapter.Type.values()[i]));
+                views[i].setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String msg = "";
+                        switch (DetailsAdapter.Type.values()[i]) {
+                            case METHOD:
+                                msg = data.getMethods().get(i).toString();
+                                break;
+                            case FIELD:
+                                if (data instanceof ClassInfo)
+                                    msg = ((ClassInfo) data).getConstants().get(i).toString();
+                                break;
+                            default:
+                                msg = "";
+                        }
+                        Log.i("Clicked", msg);
+                    }
+                });
             }
 
         }

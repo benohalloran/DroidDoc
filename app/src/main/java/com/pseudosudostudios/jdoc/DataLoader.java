@@ -25,6 +25,7 @@ import data.FileInfoFactory;
  * Copyright (c) 2014 Pseudo Sudo Studios
  */
 public class DataLoader extends AsyncTask<Void, Integer, Void> {
+    private static final String TAG = DataLoader.class.getSimpleName();
     private Context context;
     private ProgressDialog dialog;
     boolean publishProgress;
@@ -40,40 +41,45 @@ public class DataLoader extends AsyncTask<Void, Integer, Void> {
 
     @Override
     protected Void doInBackground(Void... voids) {
+
         start = System.currentTimeMillis();
         final String parent = "data-files";
-        final String[] files;
-        try {
-            files = context.getAssets().list(parent);
-            final int fileCount = 100; //files.length;
+        loadData(parent, "Activity.json");
 
-            ExecutorService executorService = Executors.newFixedThreadPool(THREAD_COUNT);
-            for (int i = 0; i < fileCount; i++) {
-                final int a = i;
-                executorService.execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        String file = files[a];
-                        loadData(parent, file);
-                        if (publishProgress)
-                            publishProgress(a, fileCount);
-                    }
-                });
-            }
-            executorService.shutdown(); //No more can be scheduled
-            if (executorService.awaitTermination(90, TimeUnit.SECONDS)) {
-                Log.i(DataLoader.class.getCanonicalName(), "Executor finished");
-            } else {
-                Log.w(DataLoader.class.getCanonicalName(), "Executor forced stop");
-                while (!executorService.isTerminated())
+        if (1 == 2)
+            try {
+                final String[] files = context.getAssets().list(parent);
+                final int fileCount = 100; //files.length;
+
+                ExecutorService executorService = Executors.newFixedThreadPool(THREAD_COUNT);
+                for (int i = 0; i < fileCount; i++) {
+                    final int a = i;
+                    executorService.submit(new Runnable() {
+                        @Override
+                        public void run() {
+                            if (Thread.interrupted())
+                                return;
+                            String file = files[a];
+                            loadData(parent, file);
+                            if (publishProgress)
+                                publishProgress(a, fileCount);
+                        }
+                    });
+                }
+                executorService.shutdown(); //No more can be scheduled
+                if (executorService.awaitTermination(90, TimeUnit.SECONDS)) {
+                    Log.i(TAG, "Executor finished");
+                } else {
+                    Log.w(TAG, "Executor forced stop");
                     executorService.shutdownNow();
-            }
+                }
+                //TODO uncomment loadData(parent, "Activity.json");
 
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         FileInfoFactory.sortPackages(); //sort when done
         Log.i("DataLoader", "Parse time: " +
                 ((System.currentTimeMillis() - start) / 1000D));
