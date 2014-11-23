@@ -1,5 +1,6 @@
 package com.pseudosudostudios.jdoc;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import data.ClassInfo;
 import data.FileInfoFactory;
 import data.InfoObject;
+import data.MethodInfo;
 
 /**
  * Created by Ben on 11/12/2014.
@@ -63,9 +65,9 @@ public class ClassInfoFrag extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_class_info, container, false);
+        final View rootView = inflater.inflate(R.layout.fragment_class_info, container, false);
         if (data == null) {
             Log.i("ClassInfoFrag", "Key: " + getArguments().getString(PKG, "NOT FOUND"));
             setData();
@@ -82,13 +84,14 @@ public class ClassInfoFrag extends Fragment {
             //METHOD, FIELD, CHILDREN, INTERFACE
             ListView[] views = {methods, fields, children, interfaces};
             for (int i = 0; i < views.length; i++) {
+                final DetailsAdapter.Type type = DetailsAdapter.Type.values()[i];
                 views[i].setAdapter(new DetailsAdapter(getActivity(), data,
-                        DetailsAdapter.Type.values()[i]));
+                        type));
                 views[i].setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         String msg = "";
-                        switch (DetailsAdapter.Type.values()[i]) {
+                        switch (type) {
                             case METHOD:
                                 msg = data.getMethods().get(i).toString();
                                 break;
@@ -100,12 +103,43 @@ public class ClassInfoFrag extends Fragment {
                                 msg = "";
                         }
                         Log.i("Clicked", msg);
+                        View popup = null;
+                        if (type == DetailsAdapter.Type.METHOD) {
+                            //TODO display the pop up with details
+                            popup = loadView(inflater, data.getMethods().get(i));
+                        }
+                        if (popup != null)
+                            new AlertDialog.Builder(getActivity()).setCancelable(true).setView(popup)
+                                    .setTitle("Details").setNeutralButton("OK", null).show();
+
                     }
                 });
             }
 
         }
         return rootView;
+    }
+
+    private View loadView(LayoutInflater inflater, MethodInfo methodInfo) {
+        View popup = inflater.inflate(R.layout.pop_up_details, null, false);
+
+        TextView decName = (TextView) popup.findViewById(R.id.declared_in);
+        TextView comments = (TextView) popup.findViewById(R.id.comments);
+        TextView methodName = (TextView) popup.findViewById(R.id.method_string);
+
+        if (methodInfo.fromClass == null || methodInfo.fromClass.equals(data.getFullName())) {
+            decName.setVisibility(View.GONE);
+            popup.findViewById(R.id.textView).setVisibility(View.GONE);
+        } else
+            decName.setText(methodInfo.fromClass.trim());
+
+        if (methodInfo.comments == null || methodInfo.comments.isEmpty())
+            comments.setVisibility(View.GONE);
+        else
+            comments.setText(methodInfo.comments.trim());
+
+        methodName.setText(methodInfo.methodName.trim());
+        return popup;
     }
 
 }

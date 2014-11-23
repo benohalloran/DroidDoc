@@ -125,32 +125,43 @@ public abstract class InfoObject {
     }
 
     protected final void parseMethodLine(String line) {
+        String oLine = line;
         if (!line.contains("(")) {
             return;
         }
         MethodInfo info = new MethodInfo();
         String[] words = line.split(" ");
         if (words[0].equals("From")) {
+
             assert (words[0].equals("From"));
             assert (words[1].equals("class") || words[1].equals("interface"));
             info.fromClass = words[2]; //
-            line = line.replace(words[0] + " " + words[1] + " " + words[2], "").trim();
+            line = (line.replace(words[0] + " " + words[1] + " " + words[2], "")).trim();
             words = line.split(" ");
         }
-
-
         int index;
-        for (index = 0; index < words.length; index++)
+        int low = 0;
+        for (index = 0; index < words.length; index++) {
+            low += words[index].length();
             if (Keyword.isKeyword(words[index]))
                 info.keyWords.add(Keyword.getEnum(words[index]));
             else
                 break;
-        //next is the method name, then the arguments
-        info.methodName = words[index++].replace('(', ' ').replace(')', ' ').trim();
-        info.comments = "";
-        for (index += 1; index < words.length; index++)
-            info.comments += words[index] + " ";
-        info.comments = info.comments.trim();
+        }
+        String[] preArgs = line.substring(0, line.indexOf('(')).trim().split(" ");
+        info.retType = preArgs[preArgs.length - 2];
+        info.methodName = preArgs[preArgs.length - 1];
+
+        String[] parens = oLine.substring(oLine.indexOf('('), oLine.indexOf(')')).split(" ");
+        for (int i = 0; i < parens.length; i += 2) {
+            info.args.add(parens[i].replace("(", ""));
+        }
+        int indStr;
+        if ((indStr = line.indexOf(')')) != -1)
+            info.comments = line.substring(indStr + 1).trim();
+        else
+            info.comments = "Unspecified";
+
         methods.add(info);
     }
 
