@@ -111,11 +111,9 @@ public class ClassInfoFrag extends Fragment {
                         if (popup != null)
                             new AlertDialog.Builder(getActivity()).setCancelable(true).setView(popup)
                                     .setTitle("Details").setNeutralButton("OK", null).show();
-
                     }
                 });
             }
-
         }
         return rootView;
     }
