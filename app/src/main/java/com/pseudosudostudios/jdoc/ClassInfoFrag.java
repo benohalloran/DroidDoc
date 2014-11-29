@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import data.ClassInfo;
+import data.ConstantInfo;
 import data.FileInfoFactory;
 import data.InfoObject;
 import data.MethodInfo;
@@ -116,6 +117,10 @@ public class ClassInfoFrag extends Fragment {
             }
         }
         return rootView;
+    }
+
+    private View loadView(LayoutInflater inflater, ConstantInfo constantInfo) {
+        return null;
     }
 
     private View loadView(LayoutInflater inflater, MethodInfo methodInfo) {

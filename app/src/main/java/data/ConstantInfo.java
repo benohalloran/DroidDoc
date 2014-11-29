@@ -10,7 +10,7 @@ public class ConstantInfo {
     public String comments;
 
     public ConstantInfo() {
-        keywords = new ArrayList<Keyword>();
+        keywords = new UniqueList<>();
     }
 
     @Override

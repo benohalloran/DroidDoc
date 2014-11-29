@@ -148,16 +148,16 @@ public abstract class InfoObject {
             else
                 break;
         }
-        String[] preArgs = line.substring(0, line.indexOf('(')).trim().split(" ");
+        String[] preArgs = line.substring(0, line.indexOf("(")).trim().split(" ");
         info.retType = preArgs[preArgs.length - 2];
         info.methodName = preArgs[preArgs.length - 1];
 
-        String[] parens = oLine.substring(oLine.indexOf('('), oLine.indexOf(')')).split(" ");
+        String[] parens = oLine.substring(oLine.indexOf("("), oLine.indexOf(")")).split(" ");
         for (int i = 0; i < parens.length; i += 2) {
             info.args.add(parens[i].replace("(", ""));
         }
         int indStr;
-        if ((indStr = line.indexOf(')')) != -1)
+        if ((indStr = line.indexOf(")")) != -1)
             info.comments = line.substring(indStr + 1).trim();
         else
             info.comments = "Unspecified";

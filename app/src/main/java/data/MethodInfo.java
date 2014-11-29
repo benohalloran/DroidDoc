@@ -32,4 +32,15 @@ public class MethodInfo implements Comparable<MethodInfo> {
     public int compareTo(MethodInfo methodInfo) {
         return methodName.compareTo(methodInfo.methodName);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof MethodInfo) {
+            MethodInfo other = (MethodInfo) o;
+
+            return other.methodName.equals(methodName) &&
+                    ((other.args.size() == args.size()) && other.args.containsAll(args));
+        }
+        return false;
+    }
 }

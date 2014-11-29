@@ -14,6 +14,9 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 import data.FileInfoFactory;
 
@@ -28,6 +31,7 @@ public class DataLoader extends AsyncTask<Void, Integer, Void> {
     boolean publishProgress;
     private long start;
 
+    private final boolean LOG_ERROR = false;
     int THREAD_COUNT = 30;
 
     public DataLoader(Context context, ProgressDialog dialog, int style) {
@@ -44,53 +48,43 @@ public class DataLoader extends AsyncTask<Void, Integer, Void> {
 
         try {
             final String[] files = context.getAssets().list(parent);
-            final int fileCount = 5; //files.length / 10;
-            for (int i = 0; i < fileCount; i++) {
-                loadData(parent, files[i]);
-                publishProgress(i, fileCount + 1);
-            }
-            loadData(parent, "Activity.json");
-/*
+            final int fileCount = files.length;
+
+            //This parsing code gave ~15 seconds for all files on HTC One M7 Android 4.4.3
+            //Device had several background tasks running as well.
             ExecutorService executorService = Executors.newCachedThreadPool();
-
-            executorService.execute(new Runnable() {
-                @Override
-                public void run() {
-                    loadData(parent, "Activity.json");
-                }
-            });
-
             for (int i = 0; i < fileCount; i++) {
                 final int a = i;
                 executorService.execute(new Runnable() {
                     @Override
                     public void run() {
-                        if (Thread.interrupted())
-                            return;
-                        String file = files[a];
-                        if (file.equals("Activity.json"))
-                            return;
-                        if (Thread.interrupted())
-                            return;
-                        loadData(parent, file);
-                        if (publishProgress)
-                            publishProgress(a, fileCount);
+                        try {
+                            if (Thread.interrupted())
+                                return;
+                            String file = files[a];
+                            if (Thread.interrupted())
+                                return;
+                            loadData(parent, file);
+                            if (publishProgress)
+                                publishProgress(a, fileCount);
+                        } catch (Exception e) {
+                            if (LOG_ERROR)
+                                e.printStackTrace();
+                        }
                     }
                 });
             }
             executorService.shutdown(); //No more can be scheduled
-            if (executorService.awaitTermination(1, TimeUnit.MINUTES)) {
+            if (executorService.awaitTermination(30, TimeUnit.SECONDS)) {
                 Log.i(TAG, "Executor finished");
             } else {
                 Log.w(TAG, "Executor forced stop");
-                executorService.shutdownNow();
+                loadData(parent, "Activity.json"); //A large class on which much of the usability is based on.
+                executorService.shutdownNow(); //Force termination
             }
-            //TODO uncomment loadData(parent, "Activity.json");
-
-        } catch (InterruptedException e) {
-            e.printStackTrace();*/
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            if (LOG_ERROR)
+                e.printStackTrace();
         }
         FileInfoFactory.sortPackages(); //sort when done
         Log.i("DataLoader", "Parse time: " +
@@ -99,6 +93,8 @@ public class DataLoader extends AsyncTask<Void, Integer, Void> {
     }
 
     private double loadData(String parent, String currentFile) {
+        if (!currentFile.endsWith(".json"))
+            return 0;
         try {
             long start = System.currentTimeMillis();
             InputStream stream =
