@@ -1,0 +1,1 @@
+{"methods":["abstract Type[] getLowerBounds() Returns the array of types that represent the lower bounds of this type.","abstract Type[] getUpperBounds() Returns the array of types that represent the upper bounds of this type."],"package":"java.lang.reflect","constants":[],"class":"WildcardType","constructors":[],"fields":[]}

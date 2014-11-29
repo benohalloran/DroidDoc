@@ -1,0 +1,1 @@
+{"methods":["abstract void onPlaybackPositionUpdate(long newPositionMs) Called on the implementer to notify it that the playback head should be set at the given position."],"package":"android.media","constants":[],"class":"RemoteControlClient.OnPlaybackPositionUpdateListener","constructors":[],"fields":[]}

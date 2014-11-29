@@ -1,0 +1,1 @@
+{"methods":["abstract void onViewRecycled(RecyclerView.ViewHolder holder) This method is called whenever the view in the ViewHolder is recycled."],"package":"android.support.v7.widget","constants":[],"class":"RecyclerView.RecyclerListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onHover(View v, MotionEvent event) Called when a hover event is dispatched to a view."],"package":"android.view","constants":[],"class":"View.OnHoverListener","constructors":[],"fields":[]}

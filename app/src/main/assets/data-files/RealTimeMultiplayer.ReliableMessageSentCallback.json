@@ -1,0 +1,1 @@
+{"methods":["abstract void onRealTimeMessageSent(int statusCode, int tokenId, String recipientParticipantId) Called to notify the client that a reliable message was sent for a room."],"package":"com.google.android.gms.games.multiplayer.realtime","constants":[],"class":"RealTimeMultiplayer.ReliableMessageSentCallback","constructors":[],"fields":[]}

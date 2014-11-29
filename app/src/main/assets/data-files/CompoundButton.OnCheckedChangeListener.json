@@ -1,0 +1,1 @@
+{"methods":["abstract void onCheckedChanged(CompoundButton buttonView, boolean isChecked) Called when the checked state of a compound button has changed."],"package":"android.widget","constants":[],"class":"CompoundButton.OnCheckedChangeListener","constructors":[],"fields":[]}

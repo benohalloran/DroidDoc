@@ -1,0 +1,1 @@
+{"methods":["abstract void invoke(String origin, boolean allow, boolean retain) Sets the Geolocation permission state for the supplied origin."],"package":"android.webkit","constants":[],"class":"GeolocationPermissions.Callback","constructors":[],"fields":[]}

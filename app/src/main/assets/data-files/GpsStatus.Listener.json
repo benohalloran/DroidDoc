@@ -1,0 +1,1 @@
+{"methods":["abstract void onGpsStatusChanged(int event) Called to report changes in the GPS status."],"package":"android.location","constants":[],"class":"GpsStatus.Listener","constructors":[],"fields":[]}

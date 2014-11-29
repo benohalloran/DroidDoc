@@ -1,0 +1,1 @@
+{"methods":["abstract void onAccessRevoked(ConnectionResult status) Called when the revokeAccessAndDisconnect(PlusClient.OnAccessRevokedListener) request has completed."],"package":"com.google.android.gms.plus","constants":[],"class":"PlusClient.OnAccessRevokedListener","constructors":[],"fields":[]}

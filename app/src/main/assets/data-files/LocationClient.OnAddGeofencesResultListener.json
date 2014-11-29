@@ -1,0 +1,1 @@
+{"methods":["abstract void onAddGeofencesResult(int statusCode, String[] geofenceRequestIds) Called when the addGeofences(List, PendingIntent, OnAddGeofencesResultListener) operation completes successfully or unsuccessfully."],"package":"com.google.android.gms.location","constants":[],"class":"LocationClient.OnAddGeofencesResultListener","constructors":[],"fields":[]}

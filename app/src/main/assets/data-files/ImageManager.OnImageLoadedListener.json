@@ -1,0 +1,1 @@
+{"methods":["abstract void onImageLoaded(Uri uri, Drawable drawable, boolean isRequestedDrawable) Listener method invoked when an image has been loaded."],"package":"com.google.android.gms.common.images","constants":[],"class":"ImageManager.OnImageLoadedListener","constructors":[],"fields":[]}

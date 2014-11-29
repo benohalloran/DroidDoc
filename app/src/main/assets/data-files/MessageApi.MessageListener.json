@@ -1,0 +1,1 @@
+{"methods":["abstract void onMessageReceived(MessageEvent messageEvent) Notification that a message has been received."],"package":"com.google.android.gms.wearable","constants":[],"class":"MessageApi.MessageListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean accept(AccessibilityEvent event) Callback for determining whether an event is accepted or it is filtered out."],"package":"android.app","constants":[],"class":"UiAutomation.AccessibilityEventFilter","constructors":[],"fields":[]}

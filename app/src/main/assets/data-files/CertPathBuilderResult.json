@@ -1,0 +1,1 @@
+{"methods":["abstract Object clone() Clones this CertPathBuilderResult instance.","abstract CertPath getCertPath() Returns the built CertPath instance."],"package":"java.security.cert","constants":[],"class":"CertPathBuilderResult","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onTimedText(MediaPlayer mp, TimedText text) Called to indicate an avaliable timed text"],"package":"android.media","constants":[],"class":"MediaPlayer.OnTimedTextListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["int EMAIL","int NICKNAME","int ORGANIZATION","int PHONE","int STRUCTURED_NAME","int UNDEFINED"],"class":"ContactsContract.DisplayNameSources","constructors":[],"fields":[]}

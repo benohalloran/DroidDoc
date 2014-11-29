@@ -1,0 +1,1 @@
+{"methods":["abstract void onEvent(DataPoint dataPoint) Handle a new data point from the data source."],"package":"com.google.android.gms.fitness.request","constants":[],"class":"DataSourceListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract ForkJoinWorkerThread newThread(ForkJoinPool pool) Returns a new worker thread operating in the given pool."],"package":"java.util.concurrent","constants":[],"class":"ForkJoinPool.ForkJoinWorkerThreadFactory","constructors":[],"fields":[]}

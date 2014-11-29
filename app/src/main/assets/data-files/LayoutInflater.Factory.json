@@ -1,0 +1,1 @@
+{"methods":["abstract View onCreateView(String name, Context context, AttributeSet attrs) Hook you can supply that is called when inflating from a LayoutInflater."],"package":"android.view","constants":[],"class":"LayoutInflater.Factory","constructors":[],"fields":[]}

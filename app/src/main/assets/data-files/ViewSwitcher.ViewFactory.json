@@ -1,0 +1,1 @@
+{"methods":["abstract View makeView() Creates a new View to be added in a ViewSwitcher."],"package":"android.widget","constants":[],"class":"ViewSwitcher.ViewFactory","constructors":[],"fields":[]}

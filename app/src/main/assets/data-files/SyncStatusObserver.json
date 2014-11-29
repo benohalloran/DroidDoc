@@ -1,0 +1,1 @@
+{"methods":["abstract void onStatusChanged(int which)"],"package":"android.content","constants":[],"class":"SyncStatusObserver","constructors":[],"fields":[]}

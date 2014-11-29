@@ -1,0 +1,1 @@
+{"methods":["abstract void publish(DataPoint dataPoint) Publishes a new data point to the Fitness Platform.","abstract void publish(List<DataPoint> dataPoints) Publishes a batch of data points to the Fitness Platform."],"package":"com.google.android.gms.fitness.service","constants":[],"class":"SensorEventDispatcher","constructors":[],"fields":[]}

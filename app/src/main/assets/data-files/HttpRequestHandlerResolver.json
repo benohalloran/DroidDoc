@@ -1,0 +1,1 @@
+{"methods":["abstract HttpRequestHandler lookup(String requestURI)"],"package":"org.apache.http.protocol","constants":[],"class":"HttpRequestHandlerResolver","constructors":[],"fields":[]}

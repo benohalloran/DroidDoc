@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onPreferenceStartFragment(PreferenceFragment caller, Preference pref) Called when the user has clicked on a Preference that has a fragment class name associated with it."],"package":"android.preference","constants":[],"class":"PreferenceFragment.OnPreferenceStartFragmentCallback","constructors":[],"fields":[]}

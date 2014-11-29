@@ -1,0 +1,1 @@
+{"methods":["abstract void handleTag(boolean opening, String tag, Editable output, XMLReader xmlReader) This method will be called whenn the HTML parser encounters a tag that it does not know how to interpret."],"package":"android.text","constants":[],"class":"Html.TagHandler","constructors":[],"fields":[]}

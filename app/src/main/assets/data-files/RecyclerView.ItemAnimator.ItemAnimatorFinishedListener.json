@@ -1,0 +1,1 @@
+{"methods":["abstract void onAnimationsFinished()"],"package":"android.support.v7.widget","constants":[],"class":"RecyclerView.ItemAnimator.ItemAnimatorFinishedListener","constructors":[],"fields":[]}

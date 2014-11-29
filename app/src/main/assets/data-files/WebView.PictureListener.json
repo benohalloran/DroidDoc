@@ -1,0 +1,1 @@
+{"methods":["abstract void onNewPicture(WebView view, Picture picture) This method was deprecated in API level 12. Deprecated due to internal changes."],"package":"android.webkit","constants":[],"class":"WebView.PictureListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onPreferenceChange(Preference preference, Object newValue) Called when a Preference has been changed by the user."],"package":"android.preference","constants":[],"class":"Preference.OnPreferenceChangeListener","constructors":[],"fields":[]}

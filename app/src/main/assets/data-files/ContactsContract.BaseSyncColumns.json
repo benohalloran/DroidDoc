@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["String SYNC1 Generic column for use by sync adapters.","String SYNC2 Generic column for use by sync adapters.","String SYNC3 Generic column for use by sync adapters.","String SYNC4 Generic column for use by sync adapters."],"class":"ContactsContract.BaseSyncColumns","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onActivityStop() See Activity's onStop."],"package":"android.preference","constants":[],"class":"PreferenceManager.OnActivityStopListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract ProtocolVersion getProtocolVersion()","abstract String getReasonPhrase()","abstract int getStatusCode()"],"package":"org.apache.http","constants":[],"class":"StatusLine","constructors":[],"fields":[]}

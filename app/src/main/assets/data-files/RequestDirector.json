@@ -1,0 +1,1 @@
+{"methods":["abstract HttpResponse execute(HttpHost target, HttpRequest request, HttpContext context) Executes a request."],"package":"org.apache.http.client","constants":[],"class":"RequestDirector","constructors":[],"fields":[]}

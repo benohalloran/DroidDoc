@@ -1,0 +1,1 @@
+{"methods":["abstract boolean acceptMatch(CharSequence s, int start, int end) Examines the character span matched by the pattern and determines if the match should be turned into an actionable link."],"package":"android.text.util","constants":[],"class":"Linkify.MatchFilter","constructors":[],"fields":[]}

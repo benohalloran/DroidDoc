@@ -1,0 +1,1 @@
+{"methods":["abstract void onFocusChange(View v, boolean hasFocus) Called when the focus state of a view has changed."],"package":"android.view","constants":[],"class":"View.OnFocusChangeListener","constructors":[],"fields":[]}

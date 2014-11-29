@@ -1,0 +1,1 @@
+{"methods":["abstract void readExternal(ObjectInput input) Reads the next object from the ObjectInput input.","abstract void writeExternal(ObjectOutput output) Writes the receiver to the ObjectOutput output."],"package":"java.io","constants":[],"class":"Externalizable","constructors":[],"fields":[]}

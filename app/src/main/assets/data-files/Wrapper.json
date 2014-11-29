@@ -1,0 +1,1 @@
+{"methods":["abstract boolean isWrapperFor(Class<?> iface) If the caller is a wrapper of the class or implements the given interface, the methods return false and vice versa.","abstract <T> T unwrap(Class<T> iface) Returns an object that implements the given interface."],"package":"java.sql","constants":[],"class":"Wrapper","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onContainerAvailable(ContainerHolder containerHolder, String containerVersion) Called to signify that a new container is available in the container holder."],"package":"com.google.android.gms.tagmanager","constants":[],"class":"ContainerHolder.ContainerAvailableListener","constructors":[],"fields":[]}

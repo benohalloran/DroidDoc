@@ -1,0 +1,1 @@
+{"methods":["abstract void onActivityDestroy() See Activity's onDestroy."],"package":"android.preference","constants":[],"class":"PreferenceManager.OnActivityDestroyListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onNdefPushComplete(NfcEvent event) Called on successful NDEF push."],"package":"android.nfc","constants":[],"class":"NfcAdapter.OnNdefPushCompleteCallback","constructors":[],"fields":[]}

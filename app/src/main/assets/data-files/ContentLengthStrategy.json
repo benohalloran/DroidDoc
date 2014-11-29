@@ -1,0 +1,1 @@
+{"methods":["abstract long determineLength(HttpMessage message)"],"package":"org.apache.http.entity","constants":["int CHUNKED","int IDENTITY"],"class":"ContentLengthStrategy","constructors":[],"fields":[]}

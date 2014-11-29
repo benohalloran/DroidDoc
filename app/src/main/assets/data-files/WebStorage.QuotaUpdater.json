@@ -1,0 +1,1 @@
+{"methods":["abstract void updateQuota(long newQuota) Provides a new quota, specified in bytes."],"package":"android.webkit","constants":[],"class":"WebStorage.QuotaUpdater","constructors":[],"fields":[]}

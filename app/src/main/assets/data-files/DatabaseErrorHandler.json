@@ -1,0 +1,1 @@
+{"methods":["abstract void onCorruption(SQLiteDatabase dbObj) defines the method to be invoked when database corruption is detected."],"package":"android.database","constants":[],"class":"DatabaseErrorHandler","constructors":[],"fields":[]}

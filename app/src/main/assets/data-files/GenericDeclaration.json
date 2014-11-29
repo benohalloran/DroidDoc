@@ -1,0 +1,1 @@
+{"methods":["abstract TypeVariable[]<?> getTypeParameters() Returns the declared type parameters in declaration order."],"package":"java.lang.reflect","constants":[],"class":"GenericDeclaration","constructors":[],"fields":[]}

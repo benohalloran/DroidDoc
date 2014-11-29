@@ -1,0 +1,1 @@
+{"methods":["abstract void onChildViewAdded(View parent, View child) Called when a new child is added to a parent view.","abstract void onChildViewRemoved(View parent, View child) Called when a child is removed from a parent view."],"package":"android.view","constants":[],"class":"ViewGroup.OnHierarchyChangeListener","constructors":[],"fields":[]}

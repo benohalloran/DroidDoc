@@ -1,0 +1,1 @@
+{"methods":["abstract void onSystemUiVisibilityChange(int visibility) Called when the status bar changes visibility because of a call to setSystemUiVisibility(int)."],"package":"android.view","constants":[],"class":"View.OnSystemUiVisibilityChangeListener","constructors":[],"fields":[]}

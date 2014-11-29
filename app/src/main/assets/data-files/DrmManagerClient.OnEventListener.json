@@ -1,0 +1,1 @@
+{"methods":["abstract void onEvent(DrmManagerClient client, DrmEvent event) Called when the DRM framework sends information about a DRM processing request."],"package":"android.drm","constants":[],"class":"DrmManagerClient.OnEventListener","constructors":[],"fields":[]}

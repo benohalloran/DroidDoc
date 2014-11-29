@@ -1,0 +1,1 @@
+{"methods":["abstract void rejectedExecution(Runnable r, ThreadPoolExecutor executor) Method that may be invoked by a ThreadPoolExecutor when execute cannot accept a task."],"package":"java.util.concurrent","constants":[],"class":"RejectedExecutionHandler","constructors":[],"fields":[]}

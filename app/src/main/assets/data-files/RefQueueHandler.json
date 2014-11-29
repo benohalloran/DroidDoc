@@ -1,0 +1,1 @@
+{"methods":["abstract void handleReference(Reference<?> ref) Invoked when a reference is found on the queue."],"package":"org.apache.http.impl.conn.tsccm","constants":[],"class":"RefQueueHandler","constructors":[],"fields":[]}

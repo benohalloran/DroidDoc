@@ -1,0 +1,1 @@
+{"methods":["abstract Game getCurrentGame(GoogleApiClient apiClient) Gets the metadata for the current game, if available.","abstract PendingResult<GamesMetadata.LoadGamesResult> loadGame(GoogleApiClient apiClient) Loads the details for the current game."],"package":"com.google.android.gms.games","constants":[],"class":"GamesMetadata","constructors":[],"fields":[]}

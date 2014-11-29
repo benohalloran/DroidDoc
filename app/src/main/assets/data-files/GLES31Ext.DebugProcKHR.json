@@ -1,0 +1,1 @@
+{"methods":["abstract void onMessage(int source, int type, int id, int severity, String message)"],"package":"android.opengl","constants":[],"class":"GLES31Ext.DebugProcKHR","constructors":[],"fields":[]}

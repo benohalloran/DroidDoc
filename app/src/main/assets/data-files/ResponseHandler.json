@@ -1,0 +1,1 @@
+{"methods":["abstract T handleResponse(HttpResponse response) Processes an HttpResponse and returns some value corresponding to that response."],"package":"org.apache.http.client","constants":[],"class":"ResponseHandler","constructors":[],"fields":[]}

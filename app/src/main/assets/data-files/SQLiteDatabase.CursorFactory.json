@@ -1,0 +1,1 @@
+{"methods":["abstract Cursor newCursor(SQLiteDatabase db, SQLiteCursorDriver masterQuery, String editTable, SQLiteQuery query) See SQLiteCursor(SQLiteCursorDriver, String, SQLiteQuery)."],"package":"android.database.sqlite","constants":[],"class":"SQLiteDatabase.CursorFactory","constructors":[],"fields":[]}

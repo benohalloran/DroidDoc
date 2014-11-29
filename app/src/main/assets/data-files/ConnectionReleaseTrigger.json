@@ -1,0 +1,1 @@
+{"methods":["abstract void abortConnection() Releases the connection without the option of keep-alive.","abstract void releaseConnection() Releases the connection with the option of keep-alive."],"package":"org.apache.http.conn","constants":[],"class":"ConnectionReleaseTrigger","constructors":[],"fields":[]}

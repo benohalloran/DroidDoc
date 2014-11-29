@@ -1,0 +1,1 @@
+{"methods":["abstract T acquire()","abstract boolean release(T instance) Release an instance to the pool."],"package":"android.support.v4.util","constants":[],"class":"Pools.Pool","constructors":[],"fields":[]}

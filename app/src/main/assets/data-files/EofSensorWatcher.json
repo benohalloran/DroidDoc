@@ -1,0 +1,1 @@
+{"methods":["abstract boolean eofDetected(InputStream wrapped) Indicates that EOF is detected.","abstract boolean streamAbort(InputStream wrapped) Indicates that the stream is aborted.","abstract boolean streamClosed(InputStream wrapped) Indicates that the stream is closed."],"package":"org.apache.http.conn","constants":[],"class":"EofSensorWatcher","constructors":[],"fields":[]}

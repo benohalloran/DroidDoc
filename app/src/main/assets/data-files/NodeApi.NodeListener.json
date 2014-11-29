@@ -1,0 +1,1 @@
+{"methods":["abstract void onPeerConnected(Node peer) Notification that a peer has been connected.","abstract void onPeerDisconnected(Node peer) Notification that a peer has been disconnected."],"package":"com.google.android.gms.wearable","constants":[],"class":"NodeApi.NodeListener","constructors":[],"fields":[]}

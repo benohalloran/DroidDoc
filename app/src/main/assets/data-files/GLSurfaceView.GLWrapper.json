@@ -1,0 +1,1 @@
+{"methods":["abstract GL wrap(GL gl) Wraps a gl interface in another gl interface."],"package":"android.opengl","constants":[],"class":"GLSurfaceView.GLWrapper","constructors":[],"fields":[]}

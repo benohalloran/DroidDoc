@@ -1,0 +1,1 @@
+{"methods":["abstract void onAnimationUpdate(ValueAnimator animation) Notifies the occurrence of another frame of the animation."],"package":"android.animation","constants":[],"class":"ValueAnimator.AnimatorUpdateListener","constructors":[],"fields":[]}

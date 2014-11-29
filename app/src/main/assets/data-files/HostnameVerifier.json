@@ -1,0 +1,1 @@
+{"methods":["abstract boolean verify(String hostname, SSLSession session) Verifies that the specified hostname is allowed within the specified SSL session."],"package":"javax.net.ssl","constants":[],"class":"HostnameVerifier","constructors":[],"fields":[]}

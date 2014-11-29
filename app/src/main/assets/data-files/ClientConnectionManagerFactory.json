@@ -1,0 +1,1 @@
+{"methods":["abstract ClientConnectionManager newInstance(HttpParams params, SchemeRegistry schemeRegistry)"],"package":"org.apache.http.conn","constants":[],"class":"ClientConnectionManagerFactory","constructors":[],"fields":[]}

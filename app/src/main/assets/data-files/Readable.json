@@ -1,0 +1,1 @@
+{"methods":["abstract int read(CharBuffer cb) Reads characters into the specified CharBuffer."],"package":"java.lang","constants":[],"class":"Readable","constructors":[],"fields":[]}

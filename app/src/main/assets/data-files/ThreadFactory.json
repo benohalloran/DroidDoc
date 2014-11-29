@@ -1,0 +1,1 @@
+{"methods":["abstract Thread newThread(Runnable r) Constructs a new Thread."],"package":"java.util.concurrent","constants":[],"class":"ThreadFactory","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onGenericMotion(View v, MotionEvent event) Called when a generic motion event is dispatched to a view."],"package":"android.view","constants":[],"class":"View.OnGenericMotionListener","constructors":[],"fields":[]}

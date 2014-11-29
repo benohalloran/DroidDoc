@@ -1,0 +1,1 @@
+{"methods":["abstract T freeze() Freeze a volatile representation into an immutable representation.","abstract boolean isDataValid() Check to see if this object is valid for use."],"package":"com.google.android.gms.common.data","constants":[],"class":"Freezable","constructors":[],"fields":[]}

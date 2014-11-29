@@ -1,0 +1,1 @@
+{"methods":["abstract void onCancel() This method will be called when the search UI is canceled."],"package":"android.app","constants":[],"class":"SearchManager.OnCancelListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract int getLength() The number of nodes in the list.","abstract Node item(int index) Returns the indexth item in the collection."],"package":"org.w3c.dom","constants":[],"class":"NodeList","constructors":[],"fields":[]}

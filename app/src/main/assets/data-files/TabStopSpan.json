@@ -1,0 +1,1 @@
+{"methods":["abstract int getTabStop() Returns the offset of the tab stop from the leading margin of the line."],"package":"android.text.style","constants":[],"class":"TabStopSpan","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onBufferingUpdate(MediaPlayer mp, int percent) Called to update status in buffering a media stream received through progressive HTTP download."],"package":"android.media","constants":[],"class":"MediaPlayer.OnBufferingUpdateListener","constructors":[],"fields":[]}

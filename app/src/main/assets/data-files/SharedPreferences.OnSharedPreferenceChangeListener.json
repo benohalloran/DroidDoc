@@ -1,0 +1,1 @@
+{"methods":["abstract void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) Called when a shared preference is changed, added, or removed."],"package":"android.content","constants":[],"class":"SharedPreferences.OnSharedPreferenceChangeListener","constructors":[],"fields":[]}

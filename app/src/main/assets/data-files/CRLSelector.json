@@ -1,0 +1,1 @@
+{"methods":["abstract Object clone() Clones this CRLSelector instance.","abstract boolean match(CRL crl) Checks whether the defined criteria of this instance match the specified CRL."],"package":"java.security.cert","constants":[],"class":"CRLSelector","constructors":[],"fields":[]}

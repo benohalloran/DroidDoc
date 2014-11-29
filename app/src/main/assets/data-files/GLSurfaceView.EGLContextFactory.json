@@ -1,0 +1,1 @@
+{"methods":["abstract EGLContext createContext(EGL10 egl, EGLDisplay display, EGLConfig eglConfig)","abstract void destroyContext(EGL10 egl, EGLDisplay display, EGLContext context)"],"package":"android.opengl","constants":[],"class":"GLSurfaceView.EGLContextFactory","constructors":[],"fields":[]}

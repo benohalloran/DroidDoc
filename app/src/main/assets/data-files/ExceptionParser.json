@@ -1,0 +1,1 @@
+{"methods":["abstract String getDescription(String threadName, Throwable t) Return a short description of a Throwable suitable for reporting to Google Analytics."],"package":"com.google.android.gms.analytics","constants":[],"class":"ExceptionParser","constructors":[],"fields":[]}

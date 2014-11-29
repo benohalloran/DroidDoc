@@ -1,0 +1,1 @@
+{"methods":["abstract boolean isRtl(CharSequence cs, int start, int count) Guess if a CharSequence is in the RTL direction or not.","abstract boolean isRtl(char[] array, int start, int count) Guess if a chars array is in the RTL direction or not."],"package":"android.text","constants":[],"class":"TextDirectionHeuristic","constructors":[],"fields":[]}

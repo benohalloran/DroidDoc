@@ -1,0 +1,1 @@
+{"methods":[],"package":"org.apache.http.conn.params","constants":["String DEFAULT_PROXY Parameter for the default proxy.","String FORCED_ROUTE Parameter for an forced route.","String LOCAL_ADDRESS Parameter for the local address."],"class":"ConnRoutePNames","constructors":[],"fields":[]}

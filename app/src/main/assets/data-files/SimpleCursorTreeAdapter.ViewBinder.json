@@ -1,0 +1,1 @@
+{"methods":["abstract boolean setViewValue(View view, Cursor cursor, int columnIndex) Binds the Cursor column defined by the specified index to the specified view."],"package":"android.widget","constants":[],"class":"SimpleCursorTreeAdapter.ViewBinder","constructors":[],"fields":[]}

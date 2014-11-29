@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) Called when a key is dispatched to a dialog."],"package":"android.content","constants":[],"class":"DialogInterface.OnKeyListener","constructors":[],"fields":[]}

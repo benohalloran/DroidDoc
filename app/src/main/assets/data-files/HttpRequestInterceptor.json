@@ -1,0 +1,1 @@
+{"methods":["abstract void process(HttpRequest request, HttpContext context) Processes a request."],"package":"org.apache.http","constants":[],"class":"HttpRequestInterceptor","constructors":[],"fields":[]}

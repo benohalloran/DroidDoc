@@ -1,0 +1,1 @@
+{"methods":["abstract void onGenerated(Palette palette) Called when the Palette has been generated."],"package":"android.support.v7.graphics","constants":[],"class":"Palette.PaletteAsyncListener","constructors":[],"fields":[]}

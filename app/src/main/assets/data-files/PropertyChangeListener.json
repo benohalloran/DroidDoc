@@ -1,0 +1,1 @@
+{"methods":["abstract void propertyChange(PropertyChangeEvent event) The source bean calls this method when an event is raised."],"package":"java.beans","constants":[],"class":"PropertyChangeListener","constructors":[],"fields":[]}

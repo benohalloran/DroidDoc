@@ -1,0 +1,1 @@
+{"methods":["abstract void onMomentsLoaded(ConnectionResult status, MomentBuffer momentBuffer, String nextPageToken, String updated) This method is deprecated. See Moments.LoadMomentsResult."],"package":"com.google.android.gms.plus","constants":[],"class":"PlusClient.OnMomentsLoadedListener","constructors":[],"fields":[]}

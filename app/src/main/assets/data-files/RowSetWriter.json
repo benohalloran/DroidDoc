@@ -1,0 +1,1 @@
+{"methods":["abstract boolean writeData(RowSetInternal theRowSet) Writes changes made in the RowSet, which is associated with this RowSetWriter, back to the database."],"package":"javax.sql","constants":[],"class":"RowSetWriter","constructors":[],"fields":[]}

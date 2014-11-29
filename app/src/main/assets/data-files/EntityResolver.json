@@ -1,0 +1,1 @@
+{"methods":["abstract InputSource resolveEntity(String publicId, String systemId) Allow the application to resolve external entities."],"package":"org.xml.sax","constants":[],"class":"EntityResolver","constructors":[],"fields":[]}

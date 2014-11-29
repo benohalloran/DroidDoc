@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onPreferenceClick(Preference preference) Called when a Preference has been clicked."],"package":"android.preference","constants":[],"class":"Preference.OnPreferenceClickListener","constructors":[],"fields":[]}

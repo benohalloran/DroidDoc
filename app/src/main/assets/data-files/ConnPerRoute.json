@@ -1,0 +1,1 @@
+{"methods":["abstract int getMaxForRoute(HttpRoute route)"],"package":"org.apache.http.conn.params","constants":[],"class":"ConnPerRoute","constructors":[],"fields":[]}

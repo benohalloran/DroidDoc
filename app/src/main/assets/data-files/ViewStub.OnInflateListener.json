@@ -1,0 +1,1 @@
+{"methods":["abstract void onInflate(ViewStub stub, View inflated) Invoked after a ViewStub successfully inflated its layout resource."],"package":"android.view","constants":[],"class":"ViewStub.OnInflateListener","constructors":[],"fields":[]}

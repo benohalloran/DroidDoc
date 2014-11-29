@@ -1,0 +1,1 @@
+{"methods":["abstract void transformPage(View page, float position) Apply a property transformation to the given page."],"package":"android.support.v4.view","constants":[],"class":"ViewPager.PageTransformer","constructors":[],"fields":[]}

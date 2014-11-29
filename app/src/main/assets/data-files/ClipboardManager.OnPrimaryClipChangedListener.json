@@ -1,0 +1,1 @@
+{"methods":["abstract void onPrimaryClipChanged() Callback that is invoked by ClipboardManager when the primary clip changes."],"package":"android.content","constants":[],"class":"ClipboardManager.OnPrimaryClipChangedListener","constructors":[],"fields":[]}

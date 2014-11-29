@@ -1,0 +1,1 @@
+{"methods":["abstract void onScanCompleted(String path, Uri uri) Called to notify the client when the media scanner has finished scanning a file."],"package":"android.media","constants":[],"class":"MediaScannerConnection.OnScanCompletedListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onDrawerOpened() Invoked when the drawer becomes fully open."],"package":"android.widget","constants":[],"class":"SlidingDrawer.OnDrawerOpenListener","constructors":[],"fields":[]}

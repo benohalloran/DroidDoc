@@ -1,0 +1,1 @@
+{"methods":["abstract CookieSpec newInstance(HttpParams params)"],"package":"org.apache.http.cookie","constants":[],"class":"CookieSpecFactory","constructors":[],"fields":[]}

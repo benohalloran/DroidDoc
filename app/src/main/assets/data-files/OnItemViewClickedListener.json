@@ -1,0 +1,1 @@
+{"methods":["abstract void onItemClicked(Presenter.ViewHolder itemViewHolder, Object item, RowPresenter.ViewHolder rowViewHolder, Row row)"],"package":"android.support.v17.leanback.widget","constants":[],"class":"OnItemViewClickedListener","constructors":[],"fields":[]}

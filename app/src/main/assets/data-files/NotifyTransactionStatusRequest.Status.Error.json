@@ -1,0 +1,1 @@
+{"methods":[],"package":"com.google.android.gms.wallet","constants":["int AVS_DECLINE","int BAD_CARD","int BAD_CVC","int DECLINED","int FRAUD_DECLINE","int OTHER","int UNKNOWN"],"class":"NotifyTransactionStatusRequest.Status.Error","constructors":[],"fields":[]}

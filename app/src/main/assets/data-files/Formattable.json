@@ -1,0 +1,1 @@
+{"methods":["abstract void formatTo(Formatter formatter, int flags, int width, int precision) Formats the object using the specified Formatter."],"package":"java.util","constants":[],"class":"Formattable","constructors":[],"fields":[]}

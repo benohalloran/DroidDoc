@@ -1,0 +1,1 @@
+{"methods":["abstract Tile getTile(int x, int y, int zoom) Returns the tile to be used for this tile coordinate."],"package":"com.google.android.gms.maps.model","constants":[],"class":"TileProvider","constructors":[],"fields":["public static final Tile NO_TILE Stub tile that is used to indicate that no tile exists for a specific tile coordinate."]}

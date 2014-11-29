@@ -1,0 +1,1 @@
+{"methods":["abstract void onInfo(DrmManagerClient client, DrmInfoEvent event) Called when the DRM framework sends status or warning information during registration and rights acquisition."],"package":"android.drm","constants":[],"class":"DrmManagerClient.OnInfoListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onLoadClass(Class clazz) Hook to allow clients of the LayoutInflater to restrict the set of Views that are allowed to be inflated."],"package":"android.view","constants":[],"class":"LayoutInflater.Filter","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean keepAlive(HttpResponse response, HttpContext context) Decides whether a connection can be kept open after a request."],"package":"org.apache.http","constants":[],"class":"ConnectionReuseStrategy","constructors":[],"fields":[]}

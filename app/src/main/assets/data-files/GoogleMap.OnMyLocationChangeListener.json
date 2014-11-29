@@ -1,0 +1,1 @@
+{"methods":["abstract void onMyLocationChange(Location location) Called when the Location of the My Location dot has changed (be it latitude/longitude, bearing or accuracy)."],"package":"com.google.android.gms.maps","constants":[],"class":"GoogleMap.OnMyLocationChangeListener","constructors":[],"fields":[]}

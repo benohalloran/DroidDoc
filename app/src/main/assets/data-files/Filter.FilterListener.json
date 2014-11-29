@@ -1,0 +1,1 @@
+{"methods":["abstract void onFilterComplete(int count) Notifies the end of a filtering operation."],"package":"android.widget","constants":[],"class":"Filter.FilterListener","constructors":[],"fields":[]}

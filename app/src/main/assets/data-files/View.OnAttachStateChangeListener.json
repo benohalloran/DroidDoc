@@ -1,0 +1,1 @@
+{"methods":["abstract void onViewAttachedToWindow(View v) Called when the view is attached to a window.","abstract void onViewDetachedFromWindow(View v) Called when the view is detached from a window."],"package":"android.view","constants":[],"class":"View.OnAttachStateChangeListener","constructors":[],"fields":[]}

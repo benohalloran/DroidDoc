@@ -1,0 +1,1 @@
+{"methods":["abstract Cursor runQuery(CharSequence constraint) Runs a query with the specified constraint."],"package":"android.widget","constants":[],"class":"FilterQueryProvider","constructors":[],"fields":[]}

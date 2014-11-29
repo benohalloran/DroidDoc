@@ -1,0 +1,1 @@
+{"methods":["abstract Object resolveVariable(QName variableName) Find a variable in the set of available variables."],"package":"javax.xml.xpath","constants":[],"class":"XPathVariableResolver","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onFrameAvailable(SurfaceTexture surfaceTexture)"],"package":"android.graphics","constants":[],"class":"SurfaceTexture.OnFrameAvailableListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract boolean isPerformanceOnly() This method is used to determine what modes this test case can run in.","abstract int startPerformance(PerformanceTestCase.Intermediates intermediates) Set up to begin performance tests."],"package":"android.test","constants":[],"class":"PerformanceTestCase","constructors":[],"fields":[]}

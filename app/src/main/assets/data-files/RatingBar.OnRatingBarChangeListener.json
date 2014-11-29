@@ -1,0 +1,1 @@
+{"methods":["abstract void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) Notification that the rating has changed."],"package":"android.widget","constants":[],"class":"RatingBar.OnRatingBarChangeListener","constructors":[],"fields":[]}

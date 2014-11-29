@@ -1,0 +1,1 @@
+{"methods":["abstract boolean block() Possibly blocks the current thread, for example waiting for a lock or condition.","abstract boolean isReleasable() Returns true if blocking is unnecessary."],"package":"java.util.concurrent","constants":[],"class":"ForkJoinPool.ManagedBlocker","constructors":[],"fields":[]}

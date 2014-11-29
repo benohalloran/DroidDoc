@@ -1,0 +1,1 @@
+{"methods":["abstract LSInput resolveResource(String type, String namespaceURI, String publicId, String systemId, String baseURI) Allow the application to resolve external resources."],"package":"org.w3c.dom.ls","constants":[],"class":"LSResourceResolver","constructors":[],"fields":[]}

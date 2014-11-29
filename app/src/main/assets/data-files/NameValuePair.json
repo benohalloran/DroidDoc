@@ -1,0 +1,1 @@
+{"methods":["abstract String getName()","abstract String getValue()"],"package":"org.apache.http","constants":[],"class":"NameValuePair","constructors":[],"fields":[]}

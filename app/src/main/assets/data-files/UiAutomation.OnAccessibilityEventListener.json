@@ -1,0 +1,1 @@
+{"methods":["abstract void onAccessibilityEvent(AccessibilityEvent event) Callback for receiving an AccessibilityEvent."],"package":"android.app","constants":[],"class":"UiAutomation.OnAccessibilityEventListener","constructors":[],"fields":[]}

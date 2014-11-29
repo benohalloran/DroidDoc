@@ -1,0 +1,1 @@
+{"methods":["abstract int compare(T lhs, T rhs) Compares the two specified objects to determine their relative ordering.","abstract boolean equals(Object object) Compares this Comparator with the specified Object and indicates whether they are equal."],"package":"java.util","constants":[],"class":"Comparator","constructors":[],"fields":[]}

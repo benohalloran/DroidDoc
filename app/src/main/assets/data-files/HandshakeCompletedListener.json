@@ -1,0 +1,1 @@
+{"methods":["abstract void handshakeCompleted(HandshakeCompletedEvent event) The callback method that is invoked when a SSL handshake is completed."],"package":"javax.net.ssl","constants":[],"class":"HandshakeCompletedListener","constructors":[],"fields":[]}

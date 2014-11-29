@@ -1,0 +1,1 @@
+{"methods":["abstract Object getAttribute(String id)","abstract Object removeAttribute(String id)","abstract void setAttribute(String id, Object obj)"],"package":"org.apache.http.protocol","constants":["String RESERVED_PREFIX The prefix reserved for use by HTTP components."],"class":"HttpContext","constructors":[],"fields":[]}

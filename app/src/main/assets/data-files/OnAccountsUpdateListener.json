@@ -1,0 +1,1 @@
+{"methods":["abstract void onAccountsUpdated(Account[] accounts) This invoked when the AccountManager starts up and whenever the account set changes."],"package":"android.accounts","constants":[],"class":"OnAccountsUpdateListener","constructors":[],"fields":[]}

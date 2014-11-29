@@ -1,0 +1,1 @@
+{"methods":["abstract void verify(HttpRequest request, HttpResponse response, HttpContext context)"],"package":"org.apache.http.protocol","constants":[],"class":"HttpExpectationVerifier","constructors":[],"fields":[]}

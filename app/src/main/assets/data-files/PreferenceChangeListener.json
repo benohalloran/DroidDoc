@@ -1,0 +1,1 @@
+{"methods":["abstract void preferenceChange(PreferenceChangeEvent pce) This method gets invoked whenever a preference is added, deleted or updated."],"package":"java.util.prefs","constants":[],"class":"PreferenceChangeListener","constructors":[],"fields":[]}

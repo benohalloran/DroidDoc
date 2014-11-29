@@ -1,0 +1,1 @@
+{"methods":["abstract boolean contains(String str) Test if a string is part of this DOMStringList.","abstract int getLength() The number of DOMStrings in the list.","abstract String item(int index) Returns the indexth item in the collection."],"package":"org.w3c.dom","constants":[],"class":"DOMStringList","constructors":[],"fields":[]}

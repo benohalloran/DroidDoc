@@ -1,0 +1,1 @@
+{"methods":["abstract EGLConfig chooseConfig(EGL10 egl, EGLDisplay display) Choose a configuration from the list."],"package":"android.opengl","constants":[],"class":"GLSurfaceView.EGLConfigChooser","constructors":[],"fields":[]}

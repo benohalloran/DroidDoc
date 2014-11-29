@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onDrag(View v, DragEvent event) Called when a drag event is dispatched to a view."],"package":"android.view","constants":[],"class":"View.OnDragListener","constructors":[],"fields":[]}

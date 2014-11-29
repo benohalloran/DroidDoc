@@ -1,0 +1,1 @@
+{"methods":["abstract void onAnimationCancel(View view) Notifies the cancellation of the animation.","abstract void onAnimationEnd(View view) Notifies the end of the animation.","abstract void onAnimationStart(View view) Notifies the start of the animation."],"package":"android.support.v4.view","constants":[],"class":"ViewPropertyAnimatorListener","constructors":[],"fields":[]}

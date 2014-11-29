@@ -1,0 +1,1 @@
+{"methods":["abstract String transformUrl(Matcher match, String url) Examines the matched text and either passes it through or uses the data in the Matcher state to produce a replacement."],"package":"android.text.util","constants":[],"class":"Linkify.TransformFilter","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void finishedEvent(int seq, boolean handled)"],"package":"android.view.inputmethod","constants":[],"class":"InputMethodSession.EventCallback","constructors":[],"fields":[]}

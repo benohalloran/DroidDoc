@@ -1,0 +1,1 @@
+{"methods":["abstract void onGesturingEnded(GestureOverlayView overlay)","abstract void onGesturingStarted(GestureOverlayView overlay)"],"package":"android.gesture","constants":[],"class":"GestureOverlayView.OnGesturingListener","constructors":[],"fields":[]}

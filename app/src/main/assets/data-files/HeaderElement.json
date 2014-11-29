@@ -1,0 +1,1 @@
+{"methods":["abstract String getName()","abstract NameValuePair getParameter(int index)","abstract NameValuePair getParameterByName(String name)","abstract int getParameterCount()","abstract NameValuePair[] getParameters()","abstract String getValue()"],"package":"org.apache.http","constants":[],"class":"HeaderElement","constructors":[],"fields":[]}

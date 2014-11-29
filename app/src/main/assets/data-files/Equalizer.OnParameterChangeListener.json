@@ -1,0 +1,1 @@
+{"methods":["abstract void onParameterChange(Equalizer effect, int status, int param1, int param2, int value) Method called when a parameter value has changed."],"package":"android.media.audiofx","constants":[],"class":"Equalizer.OnParameterChangeListener","constructors":[],"fields":[]}

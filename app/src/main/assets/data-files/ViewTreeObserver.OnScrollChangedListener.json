@@ -1,0 +1,1 @@
+{"methods":["abstract void onScrollChanged() Callback method to be invoked when something in the view tree has been scrolled."],"package":"android.view","constants":[],"class":"ViewTreeObserver.OnScrollChangedListener","constructors":[],"fields":[]}

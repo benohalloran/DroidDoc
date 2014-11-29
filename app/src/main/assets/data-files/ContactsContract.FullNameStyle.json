@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["int CHINESE","int CJK Used if the name is written in Hanzi/Kanji/Hanja and we could not determine which specific language it belongs to: Chinese, Japanese or Korean.","int JAPANESE","int KOREAN","int UNDEFINED","int WESTERN"],"class":"ContactsContract.FullNameStyle","constructors":[],"fields":[]}

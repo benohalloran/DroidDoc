@@ -1,0 +1,1 @@
+{"methods":["abstract boolean retryRequest(IOException exception, int executionCount, HttpContext context) Determines if a method should be retried after an IOException occurs during execution."],"package":"org.apache.http.client","constants":[],"class":"HttpRequestRetryHandler","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onStreetViewPanoramaClick(StreetViewPanoramaOrientation orientation) Called when the user makes a tap gesture on the panorama, but only if none of the overlays of the map handled the gesture."],"package":"com.google.android.gms.maps","constants":[],"class":"StreetViewPanorama.OnStreetViewPanoramaClickListener","constructors":[],"fields":[]}

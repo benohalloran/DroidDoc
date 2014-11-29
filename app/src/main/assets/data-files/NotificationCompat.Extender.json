@@ -1,0 +1,1 @@
+{"methods":["abstract NotificationCompat.Builder extend(NotificationCompat.Builder builder) Apply this extender to a notification builder."],"package":"android.support.v4.app","constants":[],"class":"NotificationCompat.Extender","constructors":[],"fields":[]}

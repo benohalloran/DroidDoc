@@ -1,0 +1,1 @@
+{"methods":["abstract Properties getOutputProperties() Get the properties corresponding to the effective xsl:output element.","abstract Transformer newTransformer() Create a new transformation context for this Templates object."],"package":"javax.xml.transform","constants":[],"class":"Templates","constructors":[],"fields":[]}

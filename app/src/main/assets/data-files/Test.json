@@ -1,0 +1,1 @@
+{"methods":["abstract int countTestCases() Counts the number of test cases that will be run by this test.","abstract void run(TestResult result) Runs a test and collects its result in a TestResult instance."],"package":"junit.framework","constants":[],"class":"Test","constructors":[],"fields":[]}

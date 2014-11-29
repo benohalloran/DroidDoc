@@ -1,0 +1,1 @@
+{"methods":["abstract View getInfoContents(Marker marker) Provides custom contents for the default info window frame of a marker.","abstract View getInfoWindow(Marker marker) Provides a custom info window for a marker."],"package":"com.google.android.gms.maps","constants":[],"class":"GoogleMap.InfoWindowAdapter","constructors":[],"fields":[]}

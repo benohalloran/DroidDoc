@@ -1,0 +1,1 @@
+{"methods":["abstract void onCancel(DialogInterface dialog) This method will be invoked when the dialog is canceled."],"package":"android.content","constants":[],"class":"DialogInterface.OnCancelListener","constructors":[],"fields":[]}

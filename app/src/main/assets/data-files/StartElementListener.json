@@ -1,0 +1,1 @@
+{"methods":["abstract void start(Attributes attributes) Invoked at the beginning of an element."],"package":"android.sax","constants":[],"class":"StartElementListener","constructors":[],"fields":[]}

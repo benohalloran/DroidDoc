@@ -1,0 +1,1 @@
+{"methods":["abstract void onVisibilityChanged(boolean visible) Called when the zoom controls' visibility changes.","abstract void onZoom(boolean zoomIn) Called when the owner view needs to be zoomed."],"package":"android.widget","constants":[],"class":"ZoomButtonsController.OnZoomListener","constructors":[],"fields":[]}

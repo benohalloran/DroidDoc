@@ -1,0 +1,1 @@
+{"methods":[],"package":"org.apache.http.conn.params","constants":["String MAX_STATUS_LINE_GARBAGE Defines the maximum number of ignorable lines before we expect a HTTP response's status line."],"class":"ConnConnectionPNames","constructors":[],"fields":[]}

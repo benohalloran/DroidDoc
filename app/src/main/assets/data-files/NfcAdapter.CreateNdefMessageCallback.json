@@ -1,0 +1,1 @@
+{"methods":["abstract NdefMessage createNdefMessage(NfcEvent event) Called to provide a NdefMessage to push."],"package":"android.nfc","constants":[],"class":"NfcAdapter.CreateNdefMessageCallback","constructors":[],"fields":[]}

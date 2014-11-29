@@ -1,0 +1,1 @@
+{"methods":["abstract void onNetworkActive() Called on the main thread of the process to report that the current data network has become active, and it is now a good time to perform any pending network operations."],"package":"android.net","constants":[],"class":"ConnectivityManager.OnNetworkActiveListener","constructors":[],"fields":[]}

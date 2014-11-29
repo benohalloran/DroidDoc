@@ -1,0 +1,1 @@
+{"methods":["abstract Object getUserToken(HttpContext context) The token object returned by this method is expected to uniquely identify the current user if the context is user specific or to be null if it is not."],"package":"org.apache.http.client","constants":[],"class":"UserTokenHandler","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onQuestCompleted(Quest quest) Called when the quest moves from another state to STATE_COMPLETED."],"package":"com.google.android.gms.games.quest","constants":[],"class":"QuestUpdateListener","constructors":[],"fields":[]}

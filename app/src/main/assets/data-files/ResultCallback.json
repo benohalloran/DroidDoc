@@ -1,0 +1,1 @@
+{"methods":["abstract void onResult(R result) Called when the Result is ready."],"package":"com.google.android.gms.common.api","constants":[],"class":"ResultCallback","constructors":[],"fields":[]}

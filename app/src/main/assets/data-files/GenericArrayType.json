@@ -1,0 +1,1 @@
+{"methods":["abstract Type getGenericComponentType() Returns the component type of this array."],"package":"java.lang.reflect","constants":[],"class":"GenericArrayType","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract Filter getFilter() Returns a filter that can be used to constrain data with a filtering pattern."],"package":"android.widget","constants":[],"class":"Filterable","constructors":[],"fields":[]}

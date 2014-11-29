@@ -1,0 +1,1 @@
+{"methods":["abstract void onDnsSdTxtRecordAvailable(String fullDomainName, Map<String, String> txtRecordMap, WifiP2pDevice srcDevice) The requested Bonjour service response is available."],"package":"android.net.wifi.p2p","constants":[],"class":"WifiP2pManager.DnsSdTxtRecordListener","constructors":[],"fields":[]}

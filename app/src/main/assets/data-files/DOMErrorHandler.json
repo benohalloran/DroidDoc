@@ -1,0 +1,1 @@
+{"methods":["abstract boolean handleError(DOMError error) This method is called on the error handler when an error occurs."],"package":"org.w3c.dom","constants":[],"class":"DOMErrorHandler","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onActionViewCollapsed() Called when this view is collapsed as an action view.","abstract void onActionViewExpanded() Called when this view is expanded as an action view."],"package":"android.view","constants":[],"class":"CollapsibleActionView","constructors":[],"fields":[]}

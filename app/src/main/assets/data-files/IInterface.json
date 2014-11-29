@@ -1,0 +1,1 @@
+{"methods":["abstract IBinder asBinder() Retrieve the Binder object associated with this interface."],"package":"android.os","constants":[],"class":"IInterface","constructors":[],"fields":[]}

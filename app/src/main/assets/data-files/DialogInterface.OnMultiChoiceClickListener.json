@@ -1,0 +1,1 @@
+{"methods":["abstract void onClick(DialogInterface dialog, int which, boolean isChecked) This method will be invoked when an item in the dialog is clicked."],"package":"android.content","constants":[],"class":"DialogInterface.OnMultiChoiceClickListener","constructors":[],"fields":[]}

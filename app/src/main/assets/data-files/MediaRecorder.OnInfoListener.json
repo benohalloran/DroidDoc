@@ -1,0 +1,1 @@
+{"methods":["abstract void onInfo(MediaRecorder mr, int what, int extra) Called when an error occurs while recording."],"package":"android.media","constants":[],"class":"MediaRecorder.OnInfoListener","constructors":[],"fields":[]}

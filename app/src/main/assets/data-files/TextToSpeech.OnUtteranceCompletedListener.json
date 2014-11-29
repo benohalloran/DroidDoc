@@ -1,0 +1,1 @@
+{"methods":["abstract void onUtteranceCompleted(String utteranceId) Called when an utterance has been synthesized."],"package":"android.speech.tts","constants":[],"class":"TextToSpeech.OnUtteranceCompletedListener","constructors":[],"fields":[]}

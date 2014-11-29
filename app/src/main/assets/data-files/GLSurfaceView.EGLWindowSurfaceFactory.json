@@ -1,0 +1,1 @@
+{"methods":["abstract EGLSurface createWindowSurface(EGL10 egl, EGLDisplay display, EGLConfig config, Object nativeWindow)","abstract void destroySurface(EGL10 egl, EGLDisplay display, EGLSurface surface)"],"package":"android.opengl","constants":[],"class":"GLSurfaceView.EGLWindowSurfaceFactory","constructors":[],"fields":[]}

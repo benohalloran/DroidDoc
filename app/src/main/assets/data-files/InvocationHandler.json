@@ -1,0 +1,1 @@
+{"methods":["abstract Object invoke(Object proxy, Method method, Object[] args) Handles the method which was originally invoked on the proxy instance."],"package":"java.lang.reflect","constants":[],"class":"InvocationHandler","constructors":[],"fields":[]}

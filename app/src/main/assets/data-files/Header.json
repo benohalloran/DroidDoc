@@ -1,0 +1,1 @@
+{"methods":["abstract HeaderElement[] getElements()","abstract String getName()","abstract String getValue()"],"package":"org.apache.http","constants":[],"class":"Header","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void checkGuard(Object object) Checks whether access to the specified Object should be granted."],"package":"java.security","constants":[],"class":"Guard","constructors":[],"fields":[]}

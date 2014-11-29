@@ -1,0 +1,1 @@
+{"methods":["abstract void onProviderInstallFailed(int errorCode, Intent recoveryIntent) Called when installing the provider fails.","abstract void onProviderInstalled() Called when installing the provider succeeds."],"package":"com.google.android.gms.security","constants":[],"class":"ProviderInstaller.ProviderInstallListener","constructors":[],"fields":[]}

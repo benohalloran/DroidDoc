@@ -1,0 +1,1 @@
+{"methods":["abstract Preferences systemRoot() Returns the root node of the system preferences hierarchy.","abstract Preferences userRoot() Returns the root node of the preferences hierarchy for the calling user context."],"package":"java.util.prefs","constants":[],"class":"PreferencesFactory","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract int compareTo(T another) Compares this object to the specified object to determine their relative order."],"package":"java.lang","constants":[],"class":"Comparable","constructors":[],"fields":[]}

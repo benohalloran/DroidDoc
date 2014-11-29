@@ -1,0 +1,1 @@
+{"methods":["abstract void onNmeaReceived(long timestamp, String nmea)"],"package":"android.location","constants":[],"class":"GpsStatus.NmeaListener","constructors":[],"fields":[]}

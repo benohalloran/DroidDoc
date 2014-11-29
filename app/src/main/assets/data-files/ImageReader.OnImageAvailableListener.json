@@ -1,0 +1,1 @@
+{"methods":["abstract void onImageAvailable(ImageReader reader) Callback that is called when a new image is available from ImageReader."],"package":"android.media","constants":[],"class":"ImageReader.OnImageAvailableListener","constructors":[],"fields":[]}

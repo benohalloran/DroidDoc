@@ -1,0 +1,1 @@
+{"methods":["abstract void onInfoWindowClick(Marker marker) Called when the marker's info window is clicked."],"package":"com.google.android.gms.maps","constants":[],"class":"GoogleMap.OnInfoWindowClickListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onBackStackChanged() Called whenever the contents of the back stack change."],"package":"android.support.v4.app","constants":[],"class":"FragmentManager.OnBackStackChangedListener","constructors":[],"fields":[]}

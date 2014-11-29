@@ -1,0 +1,1 @@
+{"methods":["abstract void alias(String alias) Called with the alias of the certificate chosen by the user, or null if no value was chosen."],"package":"android.security","constants":[],"class":"KeyChainAliasCallback","constructors":[],"fields":[]}

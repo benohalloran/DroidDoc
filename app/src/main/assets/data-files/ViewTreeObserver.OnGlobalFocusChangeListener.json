@@ -1,0 +1,1 @@
+{"methods":["abstract void onGlobalFocusChanged(View oldFocus, View newFocus) Callback method to be invoked when the focus changes in the view tree."],"package":"android.view","constants":[],"class":"ViewTreeObserver.OnGlobalFocusChangeListener","constructors":[],"fields":[]}

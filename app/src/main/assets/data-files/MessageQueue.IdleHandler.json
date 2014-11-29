@@ -1,0 +1,1 @@
+{"methods":["abstract boolean queueIdle() Called when the message queue has run out of messages and will now wait for more."],"package":"android.os","constants":[],"class":"MessageQueue.IdleHandler","constructors":[],"fields":[]}

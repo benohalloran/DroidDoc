@@ -1,0 +1,1 @@
+{"methods":[],"package":"org.apache.http.protocol","constants":["String HTTP_CONNECTION","String HTTP_PROXY_HOST","String HTTP_REQUEST","String HTTP_REQ_SENT","String HTTP_RESPONSE","String HTTP_TARGET_HOST"],"class":"ExecutionContext","constructors":[],"fields":[]}

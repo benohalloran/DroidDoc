@@ -1,0 +1,1 @@
+{"methods":["abstract void onPeopleLoaded(ConnectionResult status, PersonBuffer personBuffer, String nextPageToken)"],"package":"com.google.android.gms.plus","constants":[],"class":"PlusClient.OnPeopleLoadedListener","constructors":[],"fields":[]}

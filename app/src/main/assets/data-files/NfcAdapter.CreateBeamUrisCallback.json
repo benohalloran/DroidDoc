@@ -1,0 +1,1 @@
+{"methods":["abstract Uri[] createBeamUris(NfcEvent event)"],"package":"android.nfc","constants":[],"class":"NfcAdapter.CreateBeamUrisCallback","constructors":[],"fields":[]}

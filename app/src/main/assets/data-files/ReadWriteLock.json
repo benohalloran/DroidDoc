@@ -1,0 +1,1 @@
+{"methods":["abstract Lock readLock() Returns the lock used for reading.","abstract Lock writeLock() Returns the lock used for writing."],"package":"java.util.concurrent.locks","constants":[],"class":"ReadWriteLock","constructors":[],"fields":[]}

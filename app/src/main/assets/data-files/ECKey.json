@@ -1,0 +1,1 @@
+{"methods":["abstract ECParameterSpec getParams() Returns the EC key parameters."],"package":"java.security.interfaces","constants":[],"class":"ECKey","constructors":[],"fields":[]}

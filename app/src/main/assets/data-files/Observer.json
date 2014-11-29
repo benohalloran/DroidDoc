@@ -1,0 +1,1 @@
+{"methods":["abstract void update(Observable observable, Object data) This method is called if the specified Observable object's notifyObservers method is called (because the Observable object has been updated."],"package":"java.util","constants":[],"class":"Observer","constructors":[],"fields":[]}

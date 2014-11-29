@@ -1,0 +1,1 @@
+{"methods":["abstract void onStreetViewPanoramaCameraChange(StreetViewPanoramaCamera camera) Called when the user makes changes to the camera on the panorama or if the camera is changed programmatically."],"package":"com.google.android.gms.maps","constants":[],"class":"StreetViewPanorama.OnStreetViewPanoramaCameraChangeListener","constructors":[],"fields":[]}

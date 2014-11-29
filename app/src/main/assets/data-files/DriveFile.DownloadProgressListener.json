@@ -1,0 +1,1 @@
+{"methods":["abstract void onProgress(long bytesDownloaded, long bytesExpected)"],"package":"com.google.android.gms.drive","constants":[],"class":"DriveFile.DownloadProgressListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract int glQueryMatrixxOES(IntBuffer mantissa, IntBuffer exponent)","abstract int glQueryMatrixxOES(int[] mantissa, int mantissaOffset, int[] exponent, int exponentOffset)"],"package":"javax.microedition.khronos.opengles","constants":[],"class":"GL10Ext","constructors":[],"fields":[]}

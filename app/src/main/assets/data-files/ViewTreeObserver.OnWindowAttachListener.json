@@ -1,0 +1,1 @@
+{"methods":["abstract void onWindowAttached() Callback method to be invoked when the view hierarchy is attached to a window","abstract void onWindowDetached() Callback method to be invoked when the view hierarchy is detached from a window"],"package":"android.view","constants":[],"class":"ViewTreeObserver.OnWindowAttachListener","constructors":[],"fields":[]}

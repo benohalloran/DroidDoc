@@ -1,0 +1,1 @@
+{"methods":["abstract void onVideoSizeChanged(MediaPlayer mp, int width, int height) Called to indicate the video size The video size (width and height) could be 0 if there was no video, no display surface was set, or the value was not determined yet."],"package":"android.media","constants":[],"class":"MediaPlayer.OnVideoSizeChangedListener","constructors":[],"fields":[]}

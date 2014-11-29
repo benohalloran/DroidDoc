@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onBreadCrumbClick(FragmentManager.BackStackEntry backStack, int flags) Called when a bread crumb is clicked."],"package":"android.app","constants":[],"class":"FragmentBreadCrumbs.OnBreadCrumbClickListener","constructors":[],"fields":[]}

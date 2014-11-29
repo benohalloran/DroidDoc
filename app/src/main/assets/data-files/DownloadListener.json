@@ -1,0 +1,1 @@
+{"methods":["abstract void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) Notify the host application that a file should be downloaded"],"package":"android.webkit","constants":[],"class":"DownloadListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["String CONTACT_DELETED_TIMESTAMP Time (milliseconds since epoch) that the contact was deleted.","String CONTACT_ID A reference to the _ID that was deleted."],"class":"ContactsContract.DeletedContactsColumns","constructors":[],"fields":[]}

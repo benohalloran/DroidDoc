@@ -1,0 +1,1 @@
+{"methods":["abstract void addIntermediate(String name)","abstract void addIntermediate(String name, long timeInNS)","abstract void finishTiming(boolean realTime)","abstract void setInternalIterations(int count)","abstract void startTiming(boolean realTime)"],"package":"android.test","constants":[],"class":"PerformanceTestCase.Intermediates","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract T evaluate(float fraction, T startValue, T endValue) This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."],"package":"android.animation","constants":[],"class":"TypeEvaluator","constructors":[],"fields":[]}

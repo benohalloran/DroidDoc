@@ -1,0 +1,1 @@
+{"methods":["abstract void writeDataToPipe(ParcelFileDescriptor output, Uri uri, String mimeType, Bundle opts, T args) Called from a background thread to stream data out to a pipe."],"package":"android.content","constants":[],"class":"ContentProvider.PipeDataWriter","constructors":[],"fields":[]}

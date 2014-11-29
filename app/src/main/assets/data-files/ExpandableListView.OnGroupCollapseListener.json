@@ -1,0 +1,1 @@
+{"methods":["abstract void onGroupCollapse(int groupPosition) Callback method to be invoked when a group in this expandable list has been collapsed."],"package":"android.widget","constants":[],"class":"ExpandableListView.OnGroupCollapseListener","constructors":[],"fields":[]}

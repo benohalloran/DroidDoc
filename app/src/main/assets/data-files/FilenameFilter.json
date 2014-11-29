@@ -1,0 +1,1 @@
+{"methods":["abstract boolean accept(File dir, String filename) Indicates if a specific filename matches this filter."],"package":"java.io","constants":[],"class":"FilenameFilter","constructors":[],"fields":[]}

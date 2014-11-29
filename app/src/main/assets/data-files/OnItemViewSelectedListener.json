@@ -1,0 +1,1 @@
+{"methods":["abstract void onItemSelected(Presenter.ViewHolder itemViewHolder, Object item, RowPresenter.ViewHolder rowViewHolder, Row row) Called when the a row or a new item becomes selected."],"package":"android.support.v17.leanback.widget","constants":[],"class":"OnItemViewSelectedListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onLocationChanged(Location location) Called when a new user location is known."],"package":"com.google.android.gms.maps","constants":[],"class":"LocationSource.OnLocationChangedListener","constructors":[],"fields":[]}

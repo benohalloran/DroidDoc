@@ -1,0 +1,1 @@
+{"methods":["abstract void activate(LocationSource.OnLocationChangedListener listener) Activates this provider.","abstract void deactivate() Deactivates this provider."],"package":"com.google.android.gms.maps","constants":[],"class":"LocationSource","constructors":[],"fields":[]}

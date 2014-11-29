@@ -1,0 +1,1 @@
+{"methods":["abstract String getReason(int status, Locale loc) Obtains the reason phrase for a status code."],"package":"org.apache.http","constants":[],"class":"ReasonPhraseCatalog","constructors":[],"fields":[]}

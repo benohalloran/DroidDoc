@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) Callback method to be invoked when a group in this expandable list has been clicked."],"package":"android.widget","constants":[],"class":"ExpandableListView.OnGroupClickListener","constructors":[],"fields":[]}

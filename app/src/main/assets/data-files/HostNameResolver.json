@@ -1,0 +1,1 @@
+{"methods":["abstract InetAddress resolve(String hostname)"],"package":"org.apache.http.conn.scheme","constants":[],"class":"HostNameResolver","constructors":[],"fields":[]}

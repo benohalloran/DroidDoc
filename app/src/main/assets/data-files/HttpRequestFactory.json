@@ -1,0 +1,1 @@
+{"methods":["abstract HttpRequest newHttpRequest(RequestLine requestline)","abstract HttpRequest newHttpRequest(String method, String uri)"],"package":"org.apache.http","constants":[],"class":"HttpRequestFactory","constructors":[],"fields":[]}

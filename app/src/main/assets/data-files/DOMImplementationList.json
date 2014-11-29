@@ -1,0 +1,1 @@
+{"methods":["abstract int getLength() The number of DOMImplementations in the list.","abstract DOMImplementation item(int index) Returns the indexth item in the collection."],"package":"org.w3c.dom","constants":[],"class":"DOMImplementationList","constructors":[],"fields":[]}

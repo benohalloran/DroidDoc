@@ -1,0 +1,1 @@
+{"methods":["abstract void onChannelDisconnected() The channel to the framework has been disconnected."],"package":"android.net.wifi.p2p","constants":[],"class":"WifiP2pManager.ChannelListener","constructors":[],"fields":[]}

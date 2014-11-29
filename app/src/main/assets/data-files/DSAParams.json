@@ -1,0 +1,1 @@
+{"methods":["abstract BigInteger getG() Returns the base (g) value.","abstract BigInteger getP() Returns the prime (p) value.","abstract BigInteger getQ() Returns the subprime (q) value."],"package":"java.security.interfaces","constants":[],"class":"DSAParams","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":[],"package":"org.apache.http.cookie.params","constants":["String DATE_PATTERNS Parameter for the date patterns used for parsing.","String SINGLE_COOKIE_HEADER Parameter for Cookie header formatting."],"class":"CookieSpecPNames","constructors":[],"fields":[]}

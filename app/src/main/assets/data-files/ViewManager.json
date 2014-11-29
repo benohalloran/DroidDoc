@@ -1,0 +1,1 @@
+{"methods":["abstract void addView(View view, ViewGroup.LayoutParams params) Assign the passed LayoutParams to the passed View and add the view to the window.","abstract void removeView(View view)","abstract void updateViewLayout(View view, ViewGroup.LayoutParams params)"],"package":"android.view","constants":[],"class":"ViewManager","constructors":[],"fields":[]}

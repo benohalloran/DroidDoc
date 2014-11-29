@@ -1,0 +1,1 @@
+{"methods":["abstract void onStateChanged(WalletFragment fragment, int oldState, int newState, Bundle extras)"],"package":"com.google.android.gms.wallet.fragment","constants":[],"class":"WalletFragment.OnStateChangedListener","constructors":[],"fields":[]}

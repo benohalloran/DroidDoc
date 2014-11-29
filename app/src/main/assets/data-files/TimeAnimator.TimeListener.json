@@ -1,0 +1,1 @@
+{"methods":["abstract void onTimeUpdate(TimeAnimator animation, long totalTime, long deltaTime) Notifies listeners of the occurrence of another frame of the animation, along with information about the elapsed time."],"package":"android.animation","constants":[],"class":"TimeAnimator.TimeListener","constructors":[],"fields":[]}

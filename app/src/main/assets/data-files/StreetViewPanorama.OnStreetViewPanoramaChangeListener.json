@@ -1,0 +1,1 @@
+{"methods":["abstract void onStreetViewPanoramaChange(StreetViewPanoramaLocation location) The StreetViewPanorama performs an animated transition from one location to another when the user performs a manual navigation action."],"package":"com.google.android.gms.maps","constants":[],"class":"StreetViewPanorama.OnStreetViewPanoramaChangeListener","constructors":[],"fields":[]}

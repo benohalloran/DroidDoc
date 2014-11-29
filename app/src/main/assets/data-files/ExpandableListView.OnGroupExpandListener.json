@@ -1,0 +1,1 @@
+{"methods":["abstract void onGroupExpand(int groupPosition) Callback method to be invoked when a group in this expandable list has been expanded."],"package":"android.widget","constants":[],"class":"ExpandableListView.OnGroupExpandListener","constructors":[],"fields":[]}

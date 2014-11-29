@@ -1,0 +1,1 @@
+{"methods":["abstract void onPlusOneClick(Intent intent) Called when the +1 button is clicked."],"package":"com.google.android.gms.plus","constants":[],"class":"PlusOneButton.OnPlusOneClickListener","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract CharSequence convertToString(Cursor cursor) Returns a CharSequence representing the specified Cursor."],"package":"android.widget","constants":[],"class":"SimpleCursorAdapter.CursorToStringConverter","constructors":[],"fields":[]}

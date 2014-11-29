@@ -1,0 +1,1 @@
+{"methods":["abstract void onEffectUpdated(Effect effect, Object info) Called when the effect state is updated."],"package":"android.media.effect","constants":[],"class":"EffectUpdateListener","constructors":[],"fields":[]}

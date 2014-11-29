@@ -1,0 +1,1 @@
+{"methods":["abstract void onReceiveValue(T value) Invoked when the value is available."],"package":"android.webkit","constants":[],"class":"ValueCallback","constructors":[],"fields":[]}

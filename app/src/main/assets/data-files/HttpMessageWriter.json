@@ -1,0 +1,1 @@
+{"methods":["abstract void write(HttpMessage message)"],"package":"org.apache.http.io","constants":[],"class":"HttpMessageWriter","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onCancel() Invoked when a task is cancelled.","abstract void onFinish() Invoked when a task is complete."],"package":"com.google.android.gms.maps","constants":[],"class":"GoogleMap.CancelableCallback","constructors":[],"fields":[]}

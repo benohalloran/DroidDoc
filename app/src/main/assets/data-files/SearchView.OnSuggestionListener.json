@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onSuggestionClick(int position) Called when a suggestion was clicked.","abstract boolean onSuggestionSelect(int position) Called when a suggestion was selected by navigating to it."],"package":"android.widget","constants":[],"class":"SearchView.OnSuggestionListener","constructors":[],"fields":[]}

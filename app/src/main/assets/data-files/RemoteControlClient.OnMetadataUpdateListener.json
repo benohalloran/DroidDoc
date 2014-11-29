@@ -1,0 +1,1 @@
+{"methods":["abstract void onMetadataUpdate(int key, Object newValue) Called on the implementer to notify that the metadata field for the given key has been updated to the new value."],"package":"android.media","constants":[],"class":"RemoteControlClient.OnMetadataUpdateListener","constructors":[],"fields":[]}

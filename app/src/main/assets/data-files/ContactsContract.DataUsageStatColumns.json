@@ -1,0 +1,1 @@
+{"methods":[],"package":"android.provider","constants":["String LAST_TIME_USED The last time (in milliseconds) this ContactsContract.Contacts.Data was used.","String TIMES_USED The number of times the referenced ContactsContract.Contacts.Data has been used."],"class":"ContactsContract.DataUsageStatColumns","constructors":[],"fields":[]}

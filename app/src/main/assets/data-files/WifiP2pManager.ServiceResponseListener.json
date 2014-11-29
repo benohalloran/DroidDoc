@@ -1,0 +1,1 @@
+{"methods":["abstract void onServiceAvailable(int protocolType, byte[] responseData, WifiP2pDevice srcDevice) The requested service response is available."],"package":"android.net.wifi.p2p","constants":[],"class":"WifiP2pManager.ServiceResponseListener","constructors":[],"fields":[]}

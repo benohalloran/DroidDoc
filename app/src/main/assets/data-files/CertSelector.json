@@ -1,0 +1,1 @@
+{"methods":["abstract Object clone() Clones this CertSelector instance.","abstract boolean match(Certificate cert) Checks whether the defined criteria of this instance match the specified certificate."],"package":"java.security.cert","constants":[],"class":"CertSelector","constructors":[],"fields":[]}

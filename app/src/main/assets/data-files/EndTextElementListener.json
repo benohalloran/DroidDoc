@@ -1,0 +1,1 @@
+{"methods":["abstract void end(String body) Invoked at the end of a text element with the body of the element."],"package":"android.sax","constants":[],"class":"EndTextElementListener","constructors":[],"fields":[]}

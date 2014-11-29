@@ -1,0 +1,1 @@
+{"methods":["abstract boolean isChecked()","abstract void setChecked(boolean checked) Change the checked state of the view","abstract void toggle() Change the checked state of the view to the inverse of its current state"],"package":"android.widget","constants":[],"class":"Checkable","constructors":[],"fields":[]}

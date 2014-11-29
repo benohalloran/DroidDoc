@@ -1,0 +1,1 @@
+{"methods":["abstract SocketImpl createSocketImpl() Creates a new SocketImpl instance."],"package":"java.net","constants":[],"class":"SocketImplFactory","constructors":[],"fields":[]}

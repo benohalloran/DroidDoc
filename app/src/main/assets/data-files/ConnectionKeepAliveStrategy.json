@@ -1,0 +1,1 @@
+{"methods":["abstract long getKeepAliveDuration(HttpResponse response, HttpContext context) Returns the duration of time which this connection can be safely kept idle."],"package":"org.apache.http.conn","constants":[],"class":"ConnectionKeepAliveStrategy","constructors":[],"fields":[]}

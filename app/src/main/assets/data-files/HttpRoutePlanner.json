@@ -1,0 +1,1 @@
+{"methods":["abstract HttpRoute determineRoute(HttpHost target, HttpRequest request, HttpContext context) Determines the route for a request."],"package":"org.apache.http.conn.routing","constants":[],"class":"HttpRoutePlanner","constructors":[],"fields":[]}

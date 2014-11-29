@@ -1,0 +1,1 @@
+{"methods":["abstract void onBegin() Called immediately after the transaction begins.","abstract void onCommit() Called immediately before commiting the transaction.","abstract void onRollback() Called if the transaction is about to be rolled back."],"package":"android.database.sqlite","constants":[],"class":"SQLiteTransactionListener","constructors":[],"fields":[]}

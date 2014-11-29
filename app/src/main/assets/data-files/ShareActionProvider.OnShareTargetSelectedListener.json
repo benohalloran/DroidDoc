@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onShareTargetSelected(ShareActionProvider source, Intent intent) Called when a share target has been selected."],"package":"android.widget","constants":[],"class":"ShareActionProvider.OnShareTargetSelectedListener","constructors":[],"fields":[]}

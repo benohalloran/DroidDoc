@@ -1,0 +1,1 @@
+{"methods":[],"package":"org.apache.http.client.protocol","constants":["String AUTHSCHEME_REGISTRY","String AUTH_SCHEME_PREF","String COOKIESPEC_REGISTRY","String COOKIE_ORIGIN","String COOKIE_SPEC","String COOKIE_STORE","String CREDS_PROVIDER","String PROXY_AUTH_STATE","String TARGET_AUTH_STATE","String USER_TOKEN"],"class":"ClientContext","constructors":[],"fields":[]}

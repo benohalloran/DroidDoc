@@ -1,0 +1,1 @@
+{"methods":["abstract void onResolveFailed(NsdServiceInfo serviceInfo, int errorCode)","abstract void onServiceResolved(NsdServiceInfo serviceInfo)"],"package":"android.net.nsd","constants":[],"class":"NsdManager.ResolveListener","constructors":[],"fields":[]}

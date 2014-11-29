@@ -1,0 +1,1 @@
+{"methods":["abstract void onInAppPurchaseRequested(InAppPurchase inAppPurchase) Called when the user clicks an In-App purchase ad."],"package":"com.google.android.gms.ads.purchase","constants":[],"class":"InAppPurchaseListener","constructors":[],"fields":[]}

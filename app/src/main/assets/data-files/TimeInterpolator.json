@@ -1,0 +1,1 @@
+{"methods":["abstract float getInterpolation(float input) Maps a value representing the elapsed fraction of an animation to a value that represents the interpolated fraction."],"package":"android.animation","constants":[],"class":"TimeInterpolator","constructors":[],"fields":[]}

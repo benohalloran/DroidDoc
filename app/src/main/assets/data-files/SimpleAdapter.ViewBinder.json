@@ -1,0 +1,1 @@
+{"methods":["abstract boolean setViewValue(View view, Object data, String textRepresentation) Binds the specified data to the specified view."],"package":"android.widget","constants":[],"class":"SimpleAdapter.ViewBinder","constructors":[],"fields":[]}

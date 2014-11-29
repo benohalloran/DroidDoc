@@ -1,0 +1,1 @@
+{"methods":["abstract Object evaluate(List args) Evaluate the function with the specified arguments."],"package":"javax.xml.xpath","constants":[],"class":"XPathFunction","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void abortRequest() Aborts the call to getConnection(long, TimeUnit), causing it to throw an InterruptedException.","abstract ManagedClientConnection getConnection(long timeout, TimeUnit tunit) Obtains a connection within a given time."],"package":"org.apache.http.conn","constants":[],"class":"ClientConnectionRequest","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract void onScrollEnded() Invoked when the user stops dragging/flinging the drawer's handle.","abstract void onScrollStarted() Invoked when the user starts dragging/flinging the drawer's handle."],"package":"android.widget","constants":[],"class":"SlidingDrawer.OnDrawerScrollListener","constructors":[],"fields":[]}

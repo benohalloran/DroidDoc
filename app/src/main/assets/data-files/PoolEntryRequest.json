@@ -1,0 +1,1 @@
+{"methods":["abstract void abortRequest() Aborts the active or next call to getPoolEntry(long, TimeUnit).","abstract BasicPoolEntry getPoolEntry(long timeout, TimeUnit tunit) Obtains a pool entry with a connection within the given timeout."],"package":"org.apache.http.impl.conn.tsccm","constants":[],"class":"PoolEntryRequest","constructors":[],"fields":[]}

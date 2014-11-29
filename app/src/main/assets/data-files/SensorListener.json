@@ -1,0 +1,1 @@
+{"methods":["abstract void onAccuracyChanged(int sensor, int accuracy) Called when the accuracy of a sensor has changed.","abstract void onSensorChanged(int sensor, float[] values) Called when sensor values have changed."],"package":"android.hardware","constants":[],"class":"SensorListener","constructors":[],"fields":[]}

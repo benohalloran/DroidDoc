@@ -1,0 +1,1 @@
+{"methods":["abstract void onConnectionFailed(ConnectionResult result) Called when there was an error connecting the client to the service."],"package":"com.google.android.gms.common","constants":[],"class":"GooglePlayServicesClient.OnConnectionFailedListener","constructors":[],"fields":[]}

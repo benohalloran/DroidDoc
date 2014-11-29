@@ -1,0 +1,1 @@
+{"methods":["abstract void onTagDiscovered(Tag tag)"],"package":"android.nfc","constants":[],"class":"NfcAdapter.ReaderCallback","constructors":[],"fields":[]}

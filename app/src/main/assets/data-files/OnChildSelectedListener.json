@@ -1,0 +1,1 @@
+{"methods":["abstract void onChildSelected(ViewGroup parent, View view, int position, long id) Callback method to be invoked when a child of this viewgroup has been selected."],"package":"android.support.v17.leanback.widget","constants":[],"class":"OnChildSelectedListener","constructors":[],"fields":[]}

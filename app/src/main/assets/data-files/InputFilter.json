@@ -1,0 +1,1 @@
+{"methods":["abstract CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) This method is called when the buffer is going to replace the range dstart \u2026 dend of dest with the new text from the range start \u2026 end of source."],"package":"android.text","constants":[],"class":"InputFilter","constructors":[],"fields":[]}

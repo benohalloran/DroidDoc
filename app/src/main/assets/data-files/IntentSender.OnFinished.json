@@ -1,0 +1,1 @@
+{"methods":["abstract void onSendFinished(IntentSender IntentSender, Intent intent, int resultCode, String resultData, Bundle resultExtras) Called when a send operation as completed."],"package":"android.content","constants":[],"class":"IntentSender.OnFinished","constructors":[],"fields":[]}

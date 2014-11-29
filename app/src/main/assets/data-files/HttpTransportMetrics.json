@@ -1,0 +1,1 @@
+{"methods":["abstract long getBytesTransferred() Returns the number of bytes trasferred.","abstract void reset() Resets the counts"],"package":"org.apache.http.io","constants":[],"class":"HttpTransportMetrics","constructors":[],"fields":[]}

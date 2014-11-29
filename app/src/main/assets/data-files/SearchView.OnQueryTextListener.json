@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onQueryTextChange(String newText) Called when the query text is changed by the user.","abstract boolean onQueryTextSubmit(String query) Called when the user submits the query."],"package":"android.widget","constants":[],"class":"SearchView.OnQueryTextListener","constructors":[],"fields":[]}

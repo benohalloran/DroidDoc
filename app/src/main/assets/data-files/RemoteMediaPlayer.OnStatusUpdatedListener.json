@@ -1,0 +1,1 @@
+{"methods":["abstract void onStatusUpdated() Called when updated player status information is received."],"package":"com.google.android.gms.cast","constants":[],"class":"RemoteMediaPlayer.OnStatusUpdatedListener","constructors":[],"fields":[]}

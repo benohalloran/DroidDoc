@@ -1,0 +1,1 @@
+{"methods":["abstract boolean onMarkerClick(Marker marker) Called when a marker has been clicked or tapped."],"package":"com.google.android.gms.maps","constants":[],"class":"GoogleMap.OnMarkerClickListener","constructors":[],"fields":[]}

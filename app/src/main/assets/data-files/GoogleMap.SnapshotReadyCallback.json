@@ -1,0 +1,1 @@
+{"methods":["abstract void onSnapshotReady(Bitmap snapshot) Invoked when the snapshot has been taken."],"package":"com.google.android.gms.maps","constants":[],"class":"GoogleMap.SnapshotReadyCallback","constructors":[],"fields":[]}

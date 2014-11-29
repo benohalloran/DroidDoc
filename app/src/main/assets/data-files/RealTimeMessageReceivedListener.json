@@ -1,0 +1,1 @@
+{"methods":["abstract void onRealTimeMessageReceived(RealTimeMessage message) Called to notify the client that a reliable or unreliable message was received for a room."],"package":"com.google.android.gms.games.multiplayer.realtime","constants":[],"class":"RealTimeMessageReceivedListener","constructors":[],"fields":[]}

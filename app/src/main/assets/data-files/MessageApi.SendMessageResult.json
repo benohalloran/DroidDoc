@@ -1,0 +1,1 @@
+{"methods":["abstract int getRequestId()","[Expand] Inherited Methods","From interface com.google.android.gms.common.api.Result abstract Status getStatus()","abstract Status getStatus()"],"package":"com.google.android.gms.wearable","constants":[],"class":"MessageApi.SendMessageResult","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract WindowInsets onApplyWindowInsets(View v, WindowInsets insets) When set on a View, this listener method will be called instead of the view's own onApplyWindowInsets method."],"package":"android.view","constants":[],"class":"View.OnApplyWindowInsetsListener","constructors":[],"fields":[]}

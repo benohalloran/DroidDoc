@@ -1,0 +1,1 @@
+{"methods":["abstract Iterator<T> iterator() Returns an Iterator for the elements in this object."],"package":"java.lang","constants":[],"class":"Iterable","constructors":[],"fields":[]}

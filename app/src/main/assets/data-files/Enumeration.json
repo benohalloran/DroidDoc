@@ -1,0 +1,1 @@
+{"methods":["abstract boolean hasMoreElements() Returns whether this Enumeration has more elements.","abstract E nextElement() Returns the next element in this Enumeration."],"package":"java.util","constants":[],"class":"Enumeration","constructors":[],"fields":[]}

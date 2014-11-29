@@ -1,0 +1,1 @@
+{"methods":["abstract String getMethod()","abstract ProtocolVersion getProtocolVersion()","abstract String getUri()"],"package":"org.apache.http","constants":[],"class":"RequestLine","constructors":[],"fields":[]}

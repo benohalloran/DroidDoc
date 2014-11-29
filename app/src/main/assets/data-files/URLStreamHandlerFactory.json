@@ -1,0 +1,1 @@
+{"methods":["abstract URLStreamHandler createURLStreamHandler(String protocol) Creates a new URLStreamHandler instance for the given protocol."],"package":"java.net","constants":[],"class":"URLStreamHandlerFactory","constructors":[],"fields":[]}

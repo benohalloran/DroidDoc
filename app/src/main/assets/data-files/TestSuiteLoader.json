@@ -1,0 +1,1 @@
+{"methods":["abstract Class load(String suiteClassName)","abstract Class reload(Class aClass)"],"package":"junit.runner","constants":[],"class":"TestSuiteLoader","constructors":[],"fields":[]}

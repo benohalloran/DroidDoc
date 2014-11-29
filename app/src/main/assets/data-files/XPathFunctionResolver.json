@@ -1,0 +1,1 @@
+{"methods":["abstract XPathFunction resolveFunction(QName functionName, int arity) Find a function in the set of available functions."],"package":"javax.xml.xpath","constants":[],"class":"XPathFunctionResolver","constructors":[],"fields":[]}

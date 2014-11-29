@@ -1,0 +1,1 @@
+{"methods":["abstract int getSavepointId() Returns the constructed ID for this savepoint.","abstract String getSavepointName() Returns the name for this savepoint."],"package":"java.sql","constants":[],"class":"Savepoint","constructors":[],"fields":[]}

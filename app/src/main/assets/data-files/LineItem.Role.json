@@ -1,0 +1,1 @@
+{"methods":[],"package":"com.google.android.gms.wallet","constants":["int REGULAR Regular item.","int SHIPPING Shipping cost item.","int TAX Tax item."],"class":"LineItem.Role","constructors":[],"fields":[]}

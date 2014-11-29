@@ -1,0 +1,1 @@
+{"methods":["abstract void chooseHeight(CharSequence text, int start, int end, int spanstartv, int v, Paint.FontMetricsInt fm)"],"package":"android.text.style","constants":[],"class":"LineHeightSpan","constructors":[],"fields":[]}

@@ -1,0 +1,1 @@
+{"methods":["abstract ProtectionDomain[] combine(ProtectionDomain[] current, ProtectionDomain[] assigned) Returns a combination of the two provided ProtectionDomain arrays."],"package":"java.security","constants":[],"class":"DomainCombiner","constructors":[],"fields":[]}

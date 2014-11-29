@@ -1,0 +1,1 @@
+{"methods":["abstract boolean accept(File pathname) Indicating whether a specific file should be included in a pathname list."],"package":"java.io","constants":[],"class":"FileFilter","constructors":[],"fields":[]}

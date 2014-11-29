@@ -1,0 +1,1 @@
+{"methods":["abstract View getEmbeddedView(int NPP, Context context) Return a custom embedded view to draw the plugin.","abstract View getFullScreenView(int NPP, Context context) Return a custom full-screen view to be displayed when the user requests a plugin display as full-screen."],"package":"android.webkit","constants":[],"class":"PluginStub","constructors":[],"fields":[]}
