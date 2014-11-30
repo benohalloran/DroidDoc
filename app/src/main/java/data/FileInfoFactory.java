@@ -16,7 +16,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * Handles all data requests and delegates parsing as needed.
@@ -178,4 +177,17 @@ public class FileInfoFactory {
         }
         return list;
     }
+
+    public static int countPackages() {
+        return packages.size();
+    }
+
+    public static int countClassesIn(int i) {
+        return packagesHashMap.get(getPackage(i)).size();
+    }
+
+    public static List<InfoObject> get(int i) {
+        return packagesHashMap.get(getPackage(i));
+    }
+
 }

@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Parent for file-bound info objects, namely interface and class info objects.
  */
-public abstract class InfoObject {
+public abstract class InfoObject implements Comparable<InfoObject> {
     protected String pkg;
     protected String name;
     protected List<Keyword> modifiers;
@@ -231,5 +231,10 @@ public abstract class InfoObject {
     @Override
     public String toString() {
         return getFullName();
+    }
+
+    @Override
+    public int compareTo(InfoObject infoObject) {
+        return name.compareTo(infoObject.name);
     }
 }
