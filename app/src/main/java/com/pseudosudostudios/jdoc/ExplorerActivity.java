@@ -18,8 +18,6 @@ import java.util.List;
 import data.FileInfoFactory;
 import data.InfoObject;
 
-import static com.pseudosudostudios.jdoc.R.menu.class_info;
-
 /**
  * The main Activity of the application. Lists all packages in an ExpandableListView which
  * expands to show individual classes.
@@ -58,7 +56,7 @@ public class ExplorerActivity extends ExpandableListActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(class_info, menu);
+        getMenuInflater().inflate(R.menu.class_info, menu);
         return true;
     }
 

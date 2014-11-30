@@ -6,7 +6,6 @@ import android.view.Menu;
 
 import data.FileInfoFactory;
 
-
 public class ClassInfoActivity extends Activity {
 
     public static final String CLASS_INDEX = "cia_key";
@@ -41,7 +40,6 @@ public class ClassInfoActivity extends Activity {
         }
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
