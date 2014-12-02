@@ -28,6 +28,7 @@ public class ClassInfoFrag extends Fragment {
 
     public static String FULL_PACKAGE = "FULLPKG";
     private InfoObject data;
+    private DetailsAdapter.Type type = null;
 
     public ClassInfoFrag() {
         super();
@@ -50,10 +51,20 @@ public class ClassInfoFrag extends Fragment {
         return f;
     }
 
+    public static ClassInfoFrag newInstance(DetailsAdapter.Type type, String fullName) {
+        ClassInfoFrag frag = ClassInfoFrag.newInstance(fullName);
+        frag.type = type;
+        return frag;
+    }
+
     @Override
     public void setArguments(Bundle args) {
         super.setArguments(args);
         setData();
+    }
+
+    public InfoObject getData() {
+        return data;
     }
 
     private void setData() {
@@ -68,11 +79,48 @@ public class ClassInfoFrag extends Fragment {
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.fragment_class_info, container, false);
+        //final View rootView = inflater.inflate(R.layout.fragment_class_info, container, false);
+        final ListView rootView = new ListView(getActivity());
+
         if (data == null) {
             Log.i("ClassInfoFrag", "Key: " + getArguments().getString(PKG, "NOT FOUND"));
             setData();
         }
+
+        rootView.setAdapter(new DetailsAdapter(getActivity(), data,
+                type));
+
+        rootView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String msg = "";
+                switch (type) {
+                    case METHOD:
+                        msg = data.getMethods().get(i).toString();
+                        break;
+                    case FIELD:
+                        if (data instanceof ClassInfo)
+                            msg = ((ClassInfo) data).getConstants().get(i).toString();
+                        break;
+                    default:
+                        msg = "";
+                }
+                Log.i("Clicked", msg);
+                View popup = null;
+                if (type == DetailsAdapter.Type.METHOD) {
+                    //TODO display the pop up with details
+                    popup = loadView(inflater, data.getMethods().get(i));
+                }
+                if (popup != null)
+                    new AlertDialog.Builder(getActivity()).setCancelable(true).setView(popup)
+                            .setTitle("Details").setNeutralButton("OK", null).show();
+            }
+        });
+        return rootView;
+    }
+
+
+        /*
         if (data != null) {
             TextView tv = (TextView) rootView.findViewById(R.id.class_info_name);
             tv.setText(data.getFullName());
@@ -115,9 +163,10 @@ public class ClassInfoFrag extends Fragment {
                     }
                 });
             }
-        }
-        return rootView;
-    }
+            }
+
+            return rootView;
+        }*/
 
     private View loadView(LayoutInflater inflater, ConstantInfo constantInfo) {
         return null;

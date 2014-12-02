@@ -60,6 +60,10 @@ public class ExplorerActivity extends ExpandableListActivity
         return true;
     }
 
+    @Override
+    public void onBackPressed() {
+        //Do nothing
+    }
 
     @Override
     public boolean onChildClick(ExpandableListView parent, View v,

@@ -26,6 +26,7 @@ public class SearchActivity extends ListActivity implements AdapterView.OnItemCl
         ListAdapter adapter = null;
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             String query = intent.getStringExtra(SearchManager.QUERY);
+            setTitle("Results for " + query);
             //actually search
             Log.i(TAG, query);
             adapter =

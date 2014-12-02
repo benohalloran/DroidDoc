@@ -30,7 +30,7 @@ public abstract class InfoObject implements Comparable<InfoObject> {
     public InfoObject(JSONObject reader) {
         initializeFeilds();
         modifiers = new ArrayList<Keyword>();
-        methods = new ArrayList<MethodInfo>();
+        methods = new UniqueList<>();
         interfaces = new ArrayList<String>();
         parse(reader);
         Collections.sort(methods);
