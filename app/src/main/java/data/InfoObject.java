@@ -15,8 +15,8 @@ import java.util.List;
 public abstract class InfoObject implements Comparable<InfoObject> {
     protected String pkg;
     protected String name;
-    protected List<Keyword> modifiers;
-    protected List<MethodInfo> methods;
+    private final List<Keyword> modifiers;
+    private final List<MethodInfo> methods;
 
     protected String parent;
     protected List<String> interfaces;
@@ -30,7 +30,20 @@ public abstract class InfoObject implements Comparable<InfoObject> {
     public InfoObject(JSONObject reader) {
         initializeFeilds();
         modifiers = new ArrayList<Keyword>();
-        methods = new UniqueList<>();
+        methods = new UniqueList<MethodInfo>() {
+            @Override
+            public boolean add(MethodInfo object) {
+                if (contains(object)) {
+                    int index = 0;
+                    for (; index < size() && !get(index).equals(object); index++) ;
+                    MethodInfo old = remove(index);
+                    MethodInfo add =
+                            old.comments.length() > object.comments.length() ? old : object;
+                    return super.addBase(add);
+                } else
+                    return super.add(object);
+            }
+        };
         interfaces = new ArrayList<String>();
         parse(reader);
         Collections.sort(methods);
@@ -38,7 +51,6 @@ public abstract class InfoObject implements Comparable<InfoObject> {
 
     private void parse(JSONObject input) {
         // parse the header lines, which are common to both Class and Interface
-        //TODO parse constructor lines
         parseJavaFile(input);
         parseClassHeader(input);
         for (String key : LoopParse) {
@@ -53,12 +65,6 @@ public abstract class InfoObject implements Comparable<InfoObject> {
                 e.printStackTrace();
             }
         }
-           /* while (input.ready()) {
-                String l = input.readLine();
-                //TODO for some reason 'l' is null a lot
-                if (l != null)
-                    parseLine(l.trim()); //These are only method and field lines, enum values
-            }*/
     }
 
     /**
@@ -200,16 +206,8 @@ public abstract class InfoObject implements Comparable<InfoObject> {
         return modifiers;
     }
 
-    public void setModifiers(List<Keyword> modifiers) {
-        this.modifiers = modifiers;
-    }
-
     public List<MethodInfo> getMethods() {
         return methods;
-    }
-
-    public void setMethods(List<MethodInfo> methods) {
-        this.methods = methods;
     }
 
     public List<String> getInterfaces() {

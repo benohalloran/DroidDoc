@@ -29,6 +29,10 @@ public class UniqueList<T> extends ArrayList<T> {
         return b;
     }
 
+    protected boolean addBase(T obj) {
+        return super.add(obj);
+    }
+
     @Override
     public boolean addAll(int index, Collection<? extends T> collection) {
         if (containsAll(collection))
