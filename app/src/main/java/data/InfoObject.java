@@ -5,37 +5,34 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 /**
  * Parent for file-bound info objects, namely interface and class info objects.
+ * Handles all common parsing between the two.
  */
 public abstract class InfoObject implements Comparable<InfoObject> {
-    protected String pkg;
-    protected String name;
+    private String pkg;
+    private String name;
     private final List<Keyword> modifiers;
     private final List<MethodInfo> methods;
 
-    protected String parent;
-    protected List<String> interfaces;
+    private String parent;
+    private List<String> interfaces;
 
     private static String[] LoopParse = {FileInfoFactory.METHODS,
             FileInfoFactory.CONSTANTS, FileInfoFactory.FIELDS};
 
-    private static final Keyword[] NON_MODIFIERS = {Keyword.CLASS,
-            Keyword.INTERFACE};
-
     public InfoObject(JSONObject reader) {
-        initializeFeilds();
-        modifiers = new ArrayList<Keyword>();
+        initializeFields();
+        modifiers = new ArrayList<>();
         methods = new UniqueList<MethodInfo>() {
             @Override
             public boolean add(MethodInfo object) {
                 if (contains(object)) {
                     int index = 0;
-                    for (; index < size() && !get(index).equals(object); index++) ;
+                    for (; index < size() && !get(index).equals(object); index++){} ;
                     MethodInfo old = remove(index);
                     MethodInfo add =
                             old.comments.length() > object.comments.length() ? old : object;
@@ -44,15 +41,14 @@ public abstract class InfoObject implements Comparable<InfoObject> {
                     return super.add(object);
             }
         };
-        interfaces = new ArrayList<String>();
+        interfaces = new ArrayList<>();
         parse(reader);
-        Collections.sort(methods);
+        Collections.sort(methods); //Parsing is now done. Sort the methods in alphabetical order
     }
 
     private void parse(JSONObject input) {
         // parse the header lines, which are common to both Class and Interface
         parseJavaFile(input);
-        parseClassHeader(input);
         for (String key : LoopParse) {
             try {
                 JSONArray array = input.getJSONArray(key);
@@ -72,9 +68,10 @@ public abstract class InfoObject implements Comparable<InfoObject> {
      */
     protected abstract void parseLine(String readLine);
 
-    protected abstract void initializeFeilds();
+    protected abstract void initializeFields();
 
-    //Get the type represented by this class. This is used so keywords like class and interface aren't listed as modifiers.
+    //Get the type represented by this class.
+    // This is used so keywords like class and interface aren't listed as modifiers.
     protected abstract Keyword myType();
 
     private void parseJavaFile(JSONObject readLine) {
@@ -84,8 +81,6 @@ public abstract class InfoObject implements Comparable<InfoObject> {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-      /*  String[] tokens = readLine.split("\"");
-        javaFile = tokens[1];*/
     }
 
     protected boolean addKeyword(List<Keyword> modifiers, String word) {
@@ -97,37 +92,6 @@ public abstract class InfoObject implements Comparable<InfoObject> {
         } catch (IllegalArgumentException e) {
             return word.equals("class");
         }
-    }
-
-    // This might/probably have a bug when interfaces extend interfaces.
-    private void parseClassHeader(JSONObject readLine) {
-        return; //TODO impelement
-       /* boolean seenExtends = false;
-        boolean seenImplements = false;
-        String[] words = readLine.replace("{", "").split(" ");
-        for (String word : words) {
-            if (!addKeyword(modifiers, word)) {
-                if (className == null)
-                    className = word;
-                else if (word.equals("extends"))
-                    seenExtends = true;
-                else if (word.equals("implements"))
-                    if (seenImplements)
-                        throw new IllegalStateException(
-                                "Found implements twice in file");
-                    else
-                        seenImplements = true;
-                else {
-                    if (seenExtends)
-                        parent = word;
-                    else
-                        interfaces.add(word);
-                }
-            }
-        }
-        if (parent == null)
-            parent = "java.lang.Object";
-            */
     }
 
     protected final void parseMethodLine(String line) {
@@ -176,10 +140,6 @@ public abstract class InfoObject implements Comparable<InfoObject> {
             if (t.equals(key))
                 return true;
         return false;
-    }
-
-    protected <T> String listToString(List<T> list) {
-        return Arrays.toString(list.toArray());
     }
 
     public String getPkg() {

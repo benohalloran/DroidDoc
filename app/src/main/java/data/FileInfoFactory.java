@@ -5,8 +5,6 @@ import android.util.Log;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -40,8 +38,8 @@ public class FileInfoFactory {
 
     static {
         classes = new ConcurrentHashMap<String, InfoObject>();
-        interfaces = new ConcurrentHashMap<String, InfoObject>();
-        packagesHashMap = new ConcurrentHashMap<String, List<InfoObject>>();
+        interfaces = new ConcurrentHashMap<>();
+        packagesHashMap = new ConcurrentHashMap<>();
         packages = new Vector<>();
     }
 
@@ -69,10 +67,6 @@ public class FileInfoFactory {
             if (!packages.contains(pkg))
                 packages.add(pkg);
             return obj;
-        } catch (FileNotFoundException e) {
-            e.printStackTrace(); // Should never hit this.
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (IllegalArgumentException e) {
             Log.wtf(TAG, "Enum error", e);
         }
@@ -91,9 +85,8 @@ public class FileInfoFactory {
         return info;
     }
 
-    private static Keyword getFileType(JSONObject jsonObject) throws IOException {
-        return Keyword.CLASS; //TODO actually figure it out
-        //JSONObject constructs = jsonObject.getJSONObject();
+    private static Keyword getFileType(JSONObject jsonObject) {
+        return Keyword.CLASS;
     }
 
     private static InfoObject checkForExisting(String f) {
@@ -161,7 +154,7 @@ public class FileInfoFactory {
     }
 
     public static List<? extends Map<String, InfoObject>> getSearchResults(String query) {
-        List<Map<String, InfoObject>> list = new ArrayList<Map<String, InfoObject>>();
+        List<Map<String, InfoObject>> list = new ArrayList<>();
         Set<Map.Entry<String, InfoObject>> set = classes.entrySet();
         set.addAll(interfaces.entrySet());
 
@@ -170,7 +163,7 @@ public class FileInfoFactory {
             Map.Entry<String, InfoObject> entry = iterator.next();
             if (entry.getKey().toLowerCase().contains(query.toLowerCase())) {
                 //add partial match
-                HashMap<String, InfoObject> map = new HashMap<String, InfoObject>();
+                HashMap<String, InfoObject> map = new HashMap<>();
                 map.put(SEARCH_KEY, entry.getValue());
                 list.add(map);
             }

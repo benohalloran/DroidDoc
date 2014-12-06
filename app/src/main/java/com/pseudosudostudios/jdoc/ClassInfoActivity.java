@@ -17,15 +17,14 @@ public class ClassInfoActivity extends Activity {
     public static final String CLASS_INDEX = "cia_key";
     public static final String PKG = "package";
 
-    ViewPager pager;
-    InfoObject data;
+    private ViewPager pager;
+    private InfoObject data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class_info);
         pager = (ViewPager) findViewById(R.id.list_pager);
-
         if (savedInstanceState == null) {
             Bundle extras = getIntent().getExtras();
             ClassInfoFrag frag;
@@ -42,13 +41,7 @@ public class ClassInfoActivity extends Activity {
 
                 data = frag.getData();
 
-
                 setTitle(data.getFullName());
-
-              /*  getFragmentManager().beginTransaction()
-                        .add(R.id.container, frag)
-                        .commit();*/
-
             }
         }
         pager.setAdapter(new SectionsPagerAdapter(getFragmentManager()));
@@ -60,7 +53,9 @@ public class ClassInfoActivity extends Activity {
         return false;
     }
 
-
+    /**
+     * Adapter for CONSTANTS and METHODS fragments
+     */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {

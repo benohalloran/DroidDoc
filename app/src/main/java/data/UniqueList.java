@@ -3,16 +3,12 @@ package data;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/**
- * Created by ben on 11/25/14.
- */
+//Allows only one item to be entered
 public class UniqueList<T> extends ArrayList<T> {
 
     @Override
     public boolean add(T object) {
-        if (!contains(object))
-            return super.add(object);
-        return false;
+        return !contains(object) ? super.add(object) : false;
     }
 
     @Override

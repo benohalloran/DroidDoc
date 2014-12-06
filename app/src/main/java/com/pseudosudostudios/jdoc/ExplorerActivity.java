@@ -22,6 +22,8 @@ import data.InfoObject;
  * The main Activity of the application. Lists all packages in an ExpandableListView which
  * expands to show individual classes.
  */
+//Note pressing the 'back' key on this screen will do nothing. This simplifies parsing the data
+// only once over the life of the app.
 public class ExplorerActivity extends ExpandableListActivity
         implements ExpandableListView.OnChildClickListener {
     private static final String TAG = "ExplorerActivity";
@@ -32,24 +34,6 @@ public class ExplorerActivity extends ExpandableListActivity
         setContentView(R.layout.activity_explorer);
 
         setListAdapter(new ExplorerAdapter());
-        /*
-        TODO only one expanded group at a time, scroll to selected group
-        getExpandableListView().setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
-            int prevGroup = -1;
-
-            @Override
-            public boolean onGroupClick(ExpandableListView expandableListView,
-                                        View view, int group, long l) {
-                if (group != prevGroup) {
-                    //scroll and collapse
-                    if (prevGroup != -1)
-                        expandableListView.collapseGroup(prevGroup);
-                    prevGroup = group;
-                    return false;
-                }
-                return true;
-            }
-        });*/
         getExpandableListView().setOnChildClickListener(this);
     }
 
@@ -66,6 +50,7 @@ public class ExplorerActivity extends ExpandableListActivity
     }
 
     @Override
+    //Launch details when a Class is clicked
     public boolean onChildClick(ExpandableListView parent, View v,
                                 int groupPosition, int childPosition, long id) {
         Intent intent = new Intent(this, ClassInfoActivity.class);
@@ -117,7 +102,6 @@ public class ExplorerActivity extends ExpandableListActivity
 
         @Override
         public InfoObject getChild(int group, int i2) {
-            //TODO sorted
             if (sorted[group] == null) {
                 List<InfoObject> temp = clone(getGroup(group));
                 Collections.sort(temp);
@@ -126,7 +110,7 @@ public class ExplorerActivity extends ExpandableListActivity
         }
 
         private List<InfoObject> clone(List<InfoObject> group) {
-            ArrayList<InfoObject> list = new ArrayList<InfoObject>(group.size());
+            ArrayList<InfoObject> list = new ArrayList<>(group.size());
             for (InfoObject infoObject : group)
                 list.add(infoObject);
             return list;

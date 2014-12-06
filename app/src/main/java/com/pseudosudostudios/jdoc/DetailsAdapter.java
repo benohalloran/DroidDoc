@@ -14,17 +14,13 @@ import data.ClassInfo;
 import data.InfoObject;
 import data.MethodInfo;
 
-/**
- * Created by Ben on 11/12/2014.
- * Copyright (c) 2014 Pseudo Sudo Studios
- */
 public class DetailsAdapter extends BaseAdapter {
-    final Context context;
-    final InfoObject data;
-    final Type type;
+    private final Context context;
+    private final InfoObject data;
+    private final Type type;
 
     public static enum Type {
-        METHOD, FIELD, CHILDREN, INTERFACE
+        METHOD, FIELD
     }
 
     public DetailsAdapter(Context context, InfoObject data, Type type) {
@@ -44,10 +40,6 @@ public class DetailsAdapter extends BaseAdapter {
             case FIELD:
                 if (data instanceof ClassInfo)
                     return ((ClassInfo) data).getConstants().size();
-            case CHILDREN:
-            case INTERFACE:
-                //TODO implement CHILDREN, INTERFACE FIELD !Classinfo
-                return 5;
             default:
                 throw new IllegalStateException("Unknown enum: " + type);
         }
@@ -66,10 +58,6 @@ public class DetailsAdapter extends BaseAdapter {
                     return ((ClassInfo) data).getConstants().get(i).name;
                 else
                     return "FIELD INVALID";
-            case CHILDREN:
-            case INTERFACE:
-                //TODO implement
-                return type.toString();
             default:
                 throw new IllegalStateException("Unknown enum: " + type);
         }

@@ -5,6 +5,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+//Info object for CLASS objects. This implementation assumes everything is a CLASS and nothing is
+// an INTERFACE.
 public class ClassInfo extends InfoObject {
     private List<ConstantInfo> constants;
 
@@ -14,8 +16,8 @@ public class ClassInfo extends InfoObject {
 
 
     @Override
-    protected void initializeFeilds() {
-        constants = new ArrayList<ConstantInfo>();
+    protected void initializeFields() {
+        constants = new ArrayList<>();
     }
 
     protected void parseLine(String readLine) {
@@ -42,7 +44,7 @@ public class ClassInfo extends InfoObject {
         cons.type = tokens[i++];
         cons.name = tokens[i].replace(";", "");
         cons.comments = "";
-        for(i++; i < tokens.length; i++){
+        for (i++; i < tokens.length; i++) {
             cons.comments += tokens[i] + " ";
         }
         cons.comments = cons.comments.trim();
@@ -51,7 +53,7 @@ public class ClassInfo extends InfoObject {
 
     private String[] constLineParser(String line) {
         String[] tokens = {};
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
         int start = 0;
         char[] chars = line.toCharArray();
         for (int i = 0; i < chars.length; i++) {

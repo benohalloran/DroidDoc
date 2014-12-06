@@ -9,7 +9,7 @@ public class InterfaceInfo extends InfoObject {
     }
 
     @Override
-    protected void initializeFeilds() {
+    protected void initializeFields() {
         // Interface no additional fields to specify, do nothing
     }
 

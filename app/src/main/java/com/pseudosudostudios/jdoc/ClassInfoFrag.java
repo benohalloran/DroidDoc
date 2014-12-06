@@ -12,21 +12,21 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import data.ClassInfo;
-import data.ConstantInfo;
 import data.FileInfoFactory;
 import data.InfoObject;
 import data.MethodInfo;
 
 /**
- * Created by Ben on 11/12/2014.
- * Copyright (c) 2014 Pseudo Sudo Studios
+ * Displays the details of a given class. Classes are sent through the setArguments method. The
+ * arguments can either contain just the fully qualified packages, ie java.lang.Object,
+ * or the package, java.lang, and the index of the corresponding object
  */
 public class ClassInfoFrag extends Fragment {
 
-    public static String PKG = "KEWY";
-    public static String INDEX = "index";
+    private static String PKG = "PACKAGE-KEY";
+    private static String INDEX = "index";
 
-    public static String FULL_PACKAGE = "FULLPKG";
+    public static String FULL_PACKAGE = "FULL-PACKAGE";
     private InfoObject data;
     private DetailsAdapter.Type type = null;
 
@@ -60,15 +60,14 @@ public class ClassInfoFrag extends Fragment {
     @Override
     public void setArguments(Bundle args) {
         super.setArguments(args);
-        setData();
+        setData(args);
     }
 
     public InfoObject getData() {
         return data;
     }
 
-    private void setData() {
-        Bundle args = getArguments();
+    private void setData(Bundle args) {
         if (args.containsKey(PKG) && args.containsKey(INDEX))
             data = FileInfoFactory.getPackagesHashMap().get(args.getString(PKG))
                     .get(args.getInt(INDEX));
@@ -84,7 +83,7 @@ public class ClassInfoFrag extends Fragment {
 
         if (data == null) {
             Log.i("ClassInfoFrag", "Key: " + getArguments().getString(PKG, "NOT FOUND"));
-            setData();
+            setData(getArguments());
         }
 
         rootView.setAdapter(new DetailsAdapter(getActivity(), data,
@@ -108,7 +107,6 @@ public class ClassInfoFrag extends Fragment {
                 Log.i("Clicked", msg);
                 View popup = null;
                 if (type == DetailsAdapter.Type.METHOD) {
-                    //TODO display the pop up with details
                     popup = loadView(inflater, data.getMethods().get(i));
                 }
                 if (popup != null)
@@ -117,59 +115,6 @@ public class ClassInfoFrag extends Fragment {
             }
         });
         return rootView;
-    }
-
-
-        /*
-        if (data != null) {
-            TextView tv = (TextView) rootView.findViewById(R.id.class_info_name);
-            tv.setText(data.getFullName());
-
-            ListView methods = (ListView) rootView.findViewById(R.id.methods_list);
-            ListView fields = (ListView) rootView.findViewById(R.id.fields_list);
-            ListView children = (ListView) rootView.findViewById(R.id.children_list);
-            ListView interfaces = (ListView) rootView.findViewById(R.id.interfaces_list);
-
-            //METHOD, FIELD, CHILDREN, INTERFACE
-            ListView[] views = {methods, fields, children, interfaces};
-            for (int i = 0; i < views.length; i++) {
-                final DetailsAdapter.Type type = DetailsAdapter.Type.values()[i];
-                views[i].setAdapter(new DetailsAdapter(getActivity(), data,
-                        type));
-                views[i].setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                        String msg = "";
-                        switch (type) {
-                            case METHOD:
-                                msg = data.getMethods().get(i).toString();
-                                break;
-                            case FIELD:
-                                if (data instanceof ClassInfo)
-                                    msg = ((ClassInfo) data).getConstants().get(i).toString();
-                                break;
-                            default:
-                                msg = "";
-                        }
-                        Log.i("Clicked", msg);
-                        View popup = null;
-                        if (type == DetailsAdapter.Type.METHOD) {
-                            //TODO display the pop up with details
-                            popup = loadView(inflater, data.getMethods().get(i));
-                        }
-                        if (popup != null)
-                            new AlertDialog.Builder(getActivity()).setCancelable(true).setView(popup)
-                                    .setTitle("Details").setNeutralButton("OK", null).show();
-                    }
-                });
-            }
-            }
-
-            return rootView;
-        }*/
-
-    private View loadView(LayoutInflater inflater, ConstantInfo constantInfo) {
-        return null;
     }
 
     private View loadView(LayoutInflater inflater, MethodInfo methodInfo) {
